@@ -1,0 +1,26 @@
+{
+    "id": "92EC123A",
+    "path": "~/B - Praktika und Research/Anusch phd/Textmining arniundbarni/Word_functions/bigrams_pruning.R",
+    "project_path": "bigrams_pruning.R",
+    "type": "r_source",
+    "hash": "2171484216",
+    "contents": "",
+    "dirty": false,
+    "created": 1717657867688.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "40,42",
+        "scrollLine": "29"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1717657925,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1717657925118,
+    "read_only": false,
+    "read_only_alternatives": []
+}
