@@ -31,7 +31,7 @@ that no subcorpora could be identified.
 
 <div class="figure">
 
-<img src="Keywords_BIC_study1.png" alt="Analysis 1: Bayesian Information Criteria (BIC) for LDA models with 2-20 clusters." width="2100" />
+<img src="RTMR_Output/Keywords_BIC_study1.png" alt="Analysis 1: Bayesian Information Criteria (BIC) for LDA models with 2-20 clusters." width="2100" />
 
 <p class="caption">
 
