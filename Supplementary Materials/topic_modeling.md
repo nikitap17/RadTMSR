@@ -31,8 +31,9 @@ followed a near-perfect linearly increasing trend, and the simplest
 model had the lowest BIC, indicating that no subcorpora could be
 identified.
 
-::: figure
-<img src="RTMR_Output/Keywords_BIC_study1.png" alt="Analysis 1: Bayesian Information Criteria (BIC) for LDA models with 2-20 clusters." width="2100"/>
+<div class="figure">
+
+<img src="../RTMR_Output/Keywords_BIC_study1.png" alt="Analysis 1: Bayesian Information Criteria (BIC) for LDA models with 2-20 clusters." width="2100"/>
 
 <p class="caption">
 
@@ -40,23 +41,25 @@ Figure 1: Analysis 1: Bayesian Information Criteria (BIC) for LDA models
 with 2-20 clusters.
 
 </p>
-:::
 
-Congruently, all entropies were near-zero, as seen in Figure 2. Entropy reflects the separability of the
-extracted clusters. The low entropies observed in this analysis indicate
-that the posterior document/topic probabilities were effectively
+</div>
+
+Congruently, all entropies were near-zero, as seen in Figure 2. Entropy reflects the separability of the extracted clusters. The low entropies observed in this analysis indicate that the posterior document/topic probabilities were effectively
 uniformly distributed. Thus, no subcorpora could be identified, and we
 proceeded with an analysis of the whole sample.
 
-::: figure
-<img src="RTMR_Output/Keywords_entropies_study1.png" alt="Analysis 1: Entropy values for LDA models with 2-20 clusters." width="2100"/>
+<div class="figure">
+
+
+<img src="../RTMR_Output/Keywords_entropies_study1.png" alt="Analysis 1: Entropy values for LDA models with 2-20 clusters." width="2100"/>
 
 <p class="caption">
 
 Figure 2: Analysis 1: Entropy values for LDA models with 2-20 clusters.
 
 </p>
-:::
+
+</div>
 
 ## Analysis 2: Abstracts
 
@@ -82,7 +85,7 @@ model had the lowest BIC, indicating that no subcorpora could be identified.
 
 <div class="figure">
 
-<img src="RTMR_Output/Keywords_BIC_study2.png" alt="Analysis 2: Bayesian Information Criteria (BIC) for LDA models with 2-20 clusters." width="2100" />
+<img src="../RTMR_Output/Keywords_BIC_study2.png" alt="Analysis 2: Bayesian Information Criteria (BIC) for LDA models with 2-20 clusters." width="2100" />
 
 <p class="caption">
 
@@ -102,7 +105,7 @@ of the whole sample.
 
 <div class="figure">
 
-<img src="RTMR_Output/Keywords_entropies_study2_study2.png" alt="Analysis 2: Entropy values for LDA models with 2-20 clusters." width="2100" />
+<img src="../RTMR_Output/Keywords_entropies_study2_study2.png" alt="Analysis 2: Entropy values for LDA models with 2-20 clusters." width="2100" />
 
 <p class="caption">
 
