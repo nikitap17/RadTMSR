@@ -19,7 +19,7 @@ We here present all specific maps of both the keyword and the abstract corpus.
 
 <p class="caption">
 
-Figure 1: Analysis 1: Co-occurrence map for "islamist".
+Figure 1.1: Analysis 1: Co-occurrence map for "islamist".
 
 </p>
 
@@ -27,6 +27,18 @@ Figure 1: Analysis 1: Co-occurrence map for "islamist".
 
 
 #### 1.2 Analysis 2: Abstracts
+
+<div class="figure">
+
+<img src="../RTMR_Output/abstracts_cooccurrence_islamist.png" alt="Analysis 2: Co-occurrence map for 'islamist'." width="2100"/>
+
+<p class="caption">
+
+Figure 1.2: Analysis 2: Co-occurrence map for "islamist".
+
+</p>
+
+</div>
 
 ### 2. Far right
 
@@ -38,13 +50,25 @@ Figure 1: Analysis 1: Co-occurrence map for "islamist".
 
 <p class="caption">
 
-Figure 1: Analysis 1: Co-occurrence map for "far right".
+Figure 2.1: Analysis 1: Co-occurrence map for "far right".
 
 </p>
 
 </div>
 
 #### 2.2 Analysis 2: Abstracts
+
+<div class="figure">
+
+<img src="../RTMR_Output/abstracts_cooccurrence_farright.png" alt="Analysis 2: Co-occurrence map for 'far right'." width="2100"/>
+
+<p class="caption">
+
+Figure 2.2: Analysis 2: Co-occurrence map for "far right".
+
+</p>
+
+</div>
 
 ### 3. Far left
 
@@ -56,13 +80,25 @@ Figure 1: Analysis 1: Co-occurrence map for "far right".
 
 <p class="caption">
 
-Figure 1: Analysis 1: Co-occurrence map for "far left".
+Figure 3.1: Analysis 1: Co-occurrence map for "far left".
 
 </p>
 
 </div>
 
 #### 3.2 Analysis 2: Abstracts
+
+<div class="figure">
+
+<img src="../RTMR_Output/abstracts_cooccurrence_farleft.png" alt="Analysis 2: Co-occurrence map for 'far left'." width="2100"/>
+
+<p class="caption">
+
+Figure 3.2: Analysis 2: Co-occurrence map for "far left".
+
+</p>
+
+</div>
 
 ### 4. Lone actor
 
@@ -74,13 +110,25 @@ Figure 1: Analysis 1: Co-occurrence map for "far left".
 
 <p class="caption">
 
-Figure 1: Analysis 1: Co-occurrence map for "lone actor".
+Figure 4.1: Analysis 1: Co-occurrence map for "lone actor".
 
 </p>
 
 </div>
 
 #### 4.2 Analysis 2: Abstracts
+
+<div class="figure">
+
+<img src="../RTMR_Output/abstracts_cooccurrence_loneactor.png" alt="Analysis 2: Co-occurrence map for 'lone actor'." width="2100"/>
+
+<p class="caption">
+
+Figure 4.2: Analysis 2: Co-occurrence map for "lone actor".
+
+</p>
+
+</div>
 
 ### 5. Foreign Fighter
 
@@ -112,3 +160,15 @@ Figure 1: Analysis 1: Co-occurrence map for "adolescence".
 
 
 #### 7.2 Analysis 2: Abstracts
+
+<div class="figure">
+
+<img src="../RTMR_Output/abstracts_cooccurrence_adolescence.png" alt="Analysis 2: Co-occurrence map for 'adolescence'." width="2100"/>
+
+<p class="caption">
+
+Figure 1: Analysis 2: Co-occurrence map for "adolescence".
+
+</p>
+
+</div>
