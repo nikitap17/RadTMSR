@@ -19,17 +19,12 @@ The corpus for analysis 1 consisted of author-provided keywords that
 were extracted by document. We further applied an exclusion filter of
 methodological terms and non-substantive words and classified closely related terms into phenomena. The resulting corpus consisted of 3093 documents, 13469 keywords (3124 unique keywords).
 
-Following van Lissa's (2022)approach, we used the term frequency/inverse
+Following van Lissa's (2022) approach, we used the term frequency/inverse
 document frequency (TF-IDF) to select terms used frequently in a
 document, but not used frequently in the corpus, which could therefore
 be more diagnostic of subgroup membership.
 
-We considered a range from 2-20 topics, evaluating fit based on the BIC,
-and interpretability based on the entropy of the posterior
-document/topic probabilities. As can be seen in Figure 1, the BICs
-followed a near-perfect linearly increasing trend, and the simplest
-model had the lowest BIC, indicating that no subcorpora could be
-identified.
+We explored a range of 2 to 20 topics, assessing model fit through the Bayesian Information Criterion (BIC) and interpretability via the entropy of the posterior document/topic probabilities. Figure 1 illustrates that BIC values exhibited a nearly perfect linear increase, with the simplest model yielding the lowest BIC. This suggests that the data did not contain any discernible subgroups or clusters.
 
 <div class="figure">
 
@@ -44,9 +39,7 @@ with 2-20 clusters.
 
 </div>
 
-Congruently, all entropies were near-zero, as seen in Figure 2. Entropy reflects the separability of the extracted clusters. The low entropies observed in this analysis indicate that the posterior document/topic probabilities were effectively
-uniformly distributed. Thus, no subcorpora could be identified, and we
-proceeded with an analysis of the whole sample.
+Similarly, Figure 2 shows that all entropies were close to zero. Entropy measures how distinct the identified clusters are. The low entropy values in this analysis suggest that the posterior document/topic probabilities were nearly uniform, implying no distinct subgroups were detected. Consequently, we proceeded with analyzing the entire dataset as a single unit.
 
 <div class="figure">
 
@@ -63,26 +56,9 @@ Figure 2: Analysis 1: Entropy values for LDA models with 2-20 clusters.
 
 ## Analysis 2: Abstracts
 
-The corpus for this second analysis consisted of the abstracts of the
-selected articles. To perform feature extraction, we first applied the
-natural language processing technique “part-of-speech tagging”
-(POS-tagging), which identifies a word’s grammatical function within the
-sentence context. Because our analysis sought to identify phenomena, we
-retained only nouns (to capture terms like “emotion”) and adjectives (to
-capture the “mental” in “mental health”). Retaining nouns and adjectives
-generally helps derive more interpretable text mining models (Martin and
-Johnson 2015). Finally, we used lemmatizing to reduce the retained terms to
-their root form. The resulting corpus consisted of a total of 44687 keywords, 2204 unique terms in 4019 documents.
+For the second analysis, we used abstracts from the chosen articles. We employed part-of-speech tagging (POS-tagging) to determine each word’s grammatical role in the sentence. Since our focus was on identifying phenomena, we kept only nouns and adjectives. Keeping these parts of speech enhances the interpretability of text mining models (Martin & Johnson, 2015). We then lemmatized the terms. This process yielded a corpus of 44687 keywords (2204 unique terms) across 4019 documents.
 
-To assess the homogeneity of the corpus of abstracts, we again conducted
-topic modeling.
-
-We considered a range from 2-20 topics, evaluating fit based on the BIC,
-and interpretability based on the entropy of the posterior
-document/topic probabilities. As can be seen in Figure 3, the BICs 
-again followed a near-perfect linearly increasing trend, and the simplest 
-model had the lowest BIC, indicating that no subcorpora could be identified.
-
+To evaluate the consistency of the abstract corpus, we performed topic modeling. We tested topic ranges from 2-20, assessing fit with the Bayesian Information Criterion (BIC) and interpretability via the entropy of posterior document/topic probabilities. As shown in Figure 3, the BIC values increased almost linearly, and the simplest model had the lowest BIC. This indicated no identifiable subgroups within the corpus.
 <div class="figure">
 
 <img src="../RTMR_Output/Keywords_BIC_study2.png" alt="Analysis 2: Bayesian Information Criteria (BIC) for LDA models with 2-20 clusters." width="2100" />
@@ -96,12 +72,7 @@ with 2-20 clusters.
 
 </div>
 
-Congruently, all entropies were near-zero, as seen in Figure 4. 
-Entropy reflects the separability of the extracted clusters. The low 
-entropies observed in this analysis indicate that the posterior 
-document/topic probabilities were effectively uniformly distributed. 
-Thus, no subcorpora could be identified, and we proceeded with an analysis 
-of the whole sample.
+Figure 4 shows that all entropies were close to zero, which indicates how distinct the extracted clusters are. The low entropy values suggest that the posterior document/topic probabilities were almost uniformly distributed, meaning no distinct subgroups were detected. As a result, we proceeded with analyzing the entire sample as a whole.
 
 <div class="figure">
 
@@ -115,9 +86,6 @@ Figure 4: Analysis 2: Entropy values for LDA models with 2-20 clusters.
 
 </div>
 
-As before, the BICs followed a linearly increasing trend, and entropies
-were near-zero. Thus, no subcorpora were identified, and we proceed with
-a whole sample analysis.
 
 # References
 
