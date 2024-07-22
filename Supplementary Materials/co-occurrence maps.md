@@ -19,7 +19,7 @@ We here present all specific maps of both the keyword and the abstract corpus.
 
 <p class="caption">
 
-Figure 1.1: Analysis 1: Co-occurrence map for "islamist".
+Figure 1.1:Co-occurrence map for "islamist" in Analysis 1.
 
 </p>
 
@@ -34,7 +34,7 @@ Figure 1.1: Analysis 1: Co-occurrence map for "islamist".
 
 <p class="caption">
 
-Figure 1.2: Analysis 2: Co-occurrence map for "islamist".
+Figure 1.2: Co-occurrence map for "islamist" in Analysis 2.
 
 </p>
 
@@ -50,7 +50,7 @@ Figure 1.2: Analysis 2: Co-occurrence map for "islamist".
 
 <p class="caption">
 
-Figure 2.1: Analysis 1: Co-occurrence map for "far right".
+Figure 2.1: Co-occurrence map for "far right" in Analysis 1.
 
 </p>
 
@@ -64,7 +64,7 @@ Figure 2.1: Analysis 1: Co-occurrence map for "far right".
 
 <p class="caption">
 
-Figure 2.2: Analysis 2: Co-occurrence map for "far right".
+Figure 2.2: Co-occurrence map for "far right" in Analysis 2.
 
 </p>
 
@@ -80,7 +80,7 @@ Figure 2.2: Analysis 2: Co-occurrence map for "far right".
 
 <p class="caption">
 
-Figure 3.1: Analysis 1: Co-occurrence map for "far left".
+Figure 3.1: Co-occurrence map for "far left" in Analysis 1.
 
 </p>
 
@@ -94,7 +94,7 @@ Figure 3.1: Analysis 1: Co-occurrence map for "far left".
 
 <p class="caption">
 
-Figure 3.2: Analysis 2: Co-occurrence map for "far left".
+Figure 3.2: Co-occurrence map for "far left" in Analysis 2.
 
 </p>
 
@@ -110,7 +110,7 @@ Figure 3.2: Analysis 2: Co-occurrence map for "far left".
 
 <p class="caption">
 
-Figure 4.1: Analysis 1: Co-occurrence map for "lone actor".
+Figure 4.1: Co-occurrence map for "lone actor" in Analysis 1.
 
 </p>
 
@@ -124,7 +124,7 @@ Figure 4.1: Analysis 1: Co-occurrence map for "lone actor".
 
 <p class="caption">
 
-Figure 4.2: Analysis 2: Co-occurrence map for "lone actor".
+Figure 4.2: Co-occurrence map for "lone actor" in Analysis 2.
 
 </p>
 
@@ -152,7 +152,7 @@ Figure 4.2: Analysis 2: Co-occurrence map for "lone actor".
 
 <p class="caption">
 
-Figure 7.1: Analysis 1: Co-occurrence map for "adolescence".
+Figure 7.1: Co-occurrence map for "adolescence" in Analysis 1.
 
 </p>
 
@@ -167,7 +167,7 @@ Figure 7.1: Analysis 1: Co-occurrence map for "adolescence".
 
 <p class="caption">
 
-Figure 7.2: Analysis 2: Co-occurrence map for "adolescence".
+Figure 7.2: Co-occurrence map for "adolescence" in Analysis 2.
 
 </p>
 
