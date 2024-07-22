@@ -152,7 +152,7 @@ Figure 4.2: Analysis 2: Co-occurrence map for "lone actor".
 
 <p class="caption">
 
-Figure 1: Analysis 1: Co-occurrence map for "adolescence".
+Figure 7.1: Analysis 1: Co-occurrence map for "adolescence".
 
 </p>
 
@@ -167,7 +167,7 @@ Figure 1: Analysis 1: Co-occurrence map for "adolescence".
 
 <p class="caption">
 
-Figure 1: Analysis 2: Co-occurrence map for "adolescence".
+Figure 7.2: Analysis 2: Co-occurrence map for "adolescence".
 
 </p>
 
