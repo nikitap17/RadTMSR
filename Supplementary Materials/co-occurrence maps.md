@@ -19,7 +19,7 @@ We here present all specific maps of both the keyword and the abstract corpus.
 
 <p class="caption">
 
-Figure 1.1:Co-occurrence map for "islamist" in Analysis 1.
+Figure 1.1: Co-occurrence map for "islamist" in Analysis 1.
 
 </p>
 
