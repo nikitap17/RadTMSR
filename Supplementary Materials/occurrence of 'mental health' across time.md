@@ -4,7 +4,7 @@ Author: ANONYMOUS 7/22/2024
 
 ## Supplementary Analysis: Occurrence of 'Mental Health' across Time
 
-As many scholars who introduce radicalization theories advocate moving away from studying mental health, we examined the frequency of mental health-related phenomena in publications over time, confirming an overall decreasing trend. We present frequency of 'mental health' in both the keyword and abstract corpus.
+As many scholars who introduce radicalization theories advocate moving away from studying mental health, we examined the frequency of mental health-related phenomena in publications over time, confirming an overall decreasing trend. We present the frequency of 'mental health' in both the keyword and abstract corpus.
 
 ### Analysis 1: Keywords
 
