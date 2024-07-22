@@ -15,7 +15,7 @@ We here present all specific maps of both the keyword and the abstract corpus.
 
 <div class="figure">
 
-<img src="../RTMR_Output/keywords_cooccurrence_islamist.png" alt="Analysis 1: Co-occurrence map for "islamist"." width="2100"/>
+<img src="../RTMR_Output/keywords_cooccurrence_islamist.png" alt="Analysis 1: Co-occurrence map for 'islamist'." width="2100"/>
 
 <p class="caption">
 
