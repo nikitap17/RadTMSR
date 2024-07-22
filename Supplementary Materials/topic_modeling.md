@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # Topic Models
 
 Author: ANONYMOUS 7/21/2024
