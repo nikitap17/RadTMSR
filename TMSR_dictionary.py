@@ -12,7 +12,7 @@ Created on Tue May  7 09:27:36 2024
 radicalism = ["\\bradical", "\\bextremi", "^violen.+(act|protest|political|movement)", "\\bextrem.+(pro.group.|political.)?(act|behaviou?r|ideolog|attitude)", "terror", "militan", "militia", "\\b(school|suicide).attack|bomb","\\b(illegal|extreme).+political.act", "\\bself.sacrific", "\\binsurgency\\b", "\\b(ideological|protest|political|religio).+(violen|aggress)", "\\bwill.+(fight|die)", "\\bpolitically.motivated.crim", "\\b(inter.)?group.violen", "\\bderadicali[zs]ation\\b", "^attack$", "^disengagement$", "^rve$"]
 
 far_right = ["far.right(?!.part)|ultra.right|extreme.right|^radical.right$", "^right.wing.(extremi|radicali|terror)",
-             "nazi", "^pegida$", "identitarian.movement", "^fascis"]
+             "nazi", "^pegida$", "identitarian.movement", "^fascis", "^golden.dawn$", "^vox$"]
 
 # far_left = ["left.*\\b(?!.*(brain|behind))", "meinhof", "^red.army$", "^black.panther"]
 
