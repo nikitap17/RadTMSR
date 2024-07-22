@@ -1,8 +1,8 @@
-# Topic Models
+# Co-occurrence Maps
 
 Author: ANONYMOUS 7/22/2024
 
-## Supplementary Analysis: Specific Co-occurrence Maps
+## Supplementary Analysis: Co-occurrence Maps of Keyword and Abstract Corpora
 
 In the main manuscript we provided a selection of co-occurrence maps (a general map of the keyword corpus, a general map of the abstract corpus, and maps for specific terms (i.e., islamist, far right and far left) of the abstract corpus only.
 
@@ -24,6 +24,7 @@ Figure 1: Analysis 1: Co-occurrence map for "islamist".
 </p>
 
 </div>
+
 
 #### 1.2 Analysis 2: Abstracts
 
