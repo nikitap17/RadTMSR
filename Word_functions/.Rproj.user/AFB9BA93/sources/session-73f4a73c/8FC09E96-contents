@@ -4,20 +4,110 @@ Author: ANONYMOUS 7/22/2024
 
 ## Supplementary Analysis: Specific Co-occurrence Maps
 
-### 1. Adolescence
+In the main manuscript we provided a selection of co-occurrence maps (a general map of the keyword corpus, a general map of the abstract corpus, and maps for specific terms (i.e., islamist, far right and far left) of the abstract corpus only.
+
+We here present all specific maps of both the keyword and the abstract corpus.
+
+
+### 1. Islamist
 
 #### 1.1 Analysis 1: Keywords
 
+<div class="figure">
+
+<img src="../RTMR_Output/keywords_cooccurrence_islamist.png" alt="Analysis 1: Co-occurrence map for "islamist"." width="2100"/>
+
+<p class="caption">
+
+Figure 1: Analysis 1: Co-occurrence map for "islamist".
+
+</p>
+
+</div>
+
 #### 1.2 Analysis 2: Abstracts
 
-### Islamist
+### 2. Far right
 
-### Far left
+#### 2.1 Analysis 1: Keywords
 
-### Far right
+<div class="figure">
 
-### Lone actor
+<img src="../RTMR_Output/keywords_cooccurrence_farright.png" alt="Analysis 1: Co-occurrence map for "far right"." width="2100"/>
 
-### Foreign Fighter
+<p class="caption">
 
-### Male Supremacist
+Figure 1: Analysis 1: Co-occurrence map for "far right".
+
+</p>
+
+</div>
+
+#### 2.2 Analysis 2: Abstracts
+
+### 3. Far left
+
+#### 3.1 Analysis 1: Keywords
+
+<div class="figure">
+
+<img src="../RTMR_Output/keywords_cooccurrence_farleft.png" alt="Analysis 1: Co-occurrence map for "far left"." width="2100"/>
+
+<p class="caption">
+
+Figure 1: Analysis 1: Co-occurrence map for "far left".
+
+</p>
+
+</div>
+
+#### 3.2 Analysis 2: Abstracts
+
+### 4. Lone actor
+
+#### 4.1 Analysis 1: Keywords
+
+<div class="figure">
+
+<img src="../RTMR_Output/keywords_cooccurrence_loneactor.png" alt="Analysis 1: Co-occurrence map for "lone actor"." width="2100"/>
+
+<p class="caption">
+
+Figure 1: Analysis 1: Co-occurrence map for "lone actor".
+
+</p>
+
+</div>
+
+#### 4.2 Analysis 2: Abstracts
+
+### 5. Foreign Fighter
+
+#### 5.1 Analysis 1: Keywords
+
+#### 5.2 Analysis 2: Abstracts
+
+### 6. Male Supremacist
+
+#### 6.1 Analysis 1: Keywords
+
+#### 6.2 Analysis 2: Abstracts
+
+### 7. Adolescence
+
+#### 7.1 Analysis 1: Keywords
+
+<div class="figure">
+
+<img src="../RTMR_Output/keywords_cooccurrence_adolescence.png" alt="Analysis 1: Co-occurrence map for "adolescence"." width="2100"/>
+
+<p class="caption">
+
+Figure 1: Analysis 1: Co-occurrence map for "adolescence".
+
+</p>
+
+</div>
+
+
+#### 7.2 Analysis 2: Abstracts
