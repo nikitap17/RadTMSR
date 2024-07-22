@@ -6,7 +6,8 @@ Author: ANONYMOUS 7/22/2024
 
 In the main manuscript we provided a selection of co-occurrence maps (a general map of the keyword corpus, a general map of the abstract corpus, and maps for specific terms (i.e., islamist, far right and far left) of the abstract corpus only.
 
-We here present all specific maps of both the keyword and the abstract corpus.
+We here present all specific maps (for specific ideological terms; i.e., Islamist, far right, far left, lone actor, foreign fighter, male supremacist) of both the keyword and the abstract corpus.
+Recognizing the critical importance of the adolescent age group, we further provide co-occurrence maps for the term "adolescence."
 
 
 ### 1. Islamist
