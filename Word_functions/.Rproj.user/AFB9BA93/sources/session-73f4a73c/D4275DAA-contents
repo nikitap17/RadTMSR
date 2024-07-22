@@ -58,7 +58,7 @@ Figure 2: Analysis 1: Entropy values for LDA models with 2-20 clusters.
 
 For the second analysis, we used abstracts from the chosen articles. We employed part-of-speech tagging (POS-tagging) to determine each word’s grammatical role in the sentence. Since our focus was on identifying phenomena, we kept only nouns and adjectives. Keeping these parts of speech enhances the interpretability of text mining models (Martin & Johnson, 2015). We then lemmatized the terms. This process yielded a corpus of 44687 keywords (2204 unique terms) across 4019 documents.
 
-To evaluate the consistency of the abstract corpus, we performed topic modeling. We tested topic ranges from 2-20, assessing fit with the Bayesian Information Criterion (BIC) and interpretability via the entropy of posterior document/topic probabilities. As shown in Figure 3, the BIC values increased almost linearly, and the simplest model had the lowest BIC. This indicated no identifiable subgroups within the corpus.
+To evaluate the consistency of the abstract corpus, we performed topic modeling. We again tested topic ranges from 2-20, assessing fit with the Bayesian Information Criterion (BIC) and interpretability via the entropy of posterior document/topic probabilities. As shown in Figure 3, the BIC values increased almost linearly, and the simplest model had the lowest BIC. This indicated no identifiable subgroups within the corpus.
 <div class="figure">
 
 <img src="../RTMR_Output/Keywords_BIC_study2.png" alt="Analysis 2: Bayesian Information Criteria (BIC) for LDA models with 2-20 clusters." width="2100" />
