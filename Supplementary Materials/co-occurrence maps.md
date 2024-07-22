@@ -34,7 +34,7 @@ Figure 1: Analysis 1: Co-occurrence map for "islamist".
 
 <div class="figure">
 
-<img src="../RTMR_Output/keywords_cooccurrence_farright.png" alt="Analysis 1: Co-occurrence map for "far right"." width="2100"/>
+<img src="../RTMR_Output/keywords_cooccurrence_farright.png" alt="Analysis 1: Co-occurrence map for 'far right'." width="2100"/>
 
 <p class="caption">
 
@@ -52,7 +52,7 @@ Figure 1: Analysis 1: Co-occurrence map for "far right".
 
 <div class="figure">
 
-<img src="../RTMR_Output/keywords_cooccurrence_farleft.png" alt="Analysis 1: Co-occurrence map for "far left"." width="2100"/>
+<img src="../RTMR_Output/keywords_cooccurrence_farleft.png" alt="Analysis 1: Co-occurrence map for 'far left'." width="2100"/>
 
 <p class="caption">
 
@@ -70,7 +70,7 @@ Figure 1: Analysis 1: Co-occurrence map for "far left".
 
 <div class="figure">
 
-<img src="../RTMR_Output/keywords_cooccurrence_loneactor.png" alt="Analysis 1: Co-occurrence map for "lone actor"." width="2100"/>
+<img src="../RTMR_Output/keywords_cooccurrence_loneactor.png" alt="Analysis 1: Co-occurrence map for 'lone actor'." width="2100"/>
 
 <p class="caption">
 
@@ -100,7 +100,7 @@ Figure 1: Analysis 1: Co-occurrence map for "lone actor".
 
 <div class="figure">
 
-<img src="../RTMR_Output/keywords_cooccurrence_adolescence.png" alt="Analysis 1: Co-occurrence map for "adolescence"." width="2100"/>
+<img src="../RTMR_Output/keywords_cooccurrence_adolescence.png" alt="Analysis 1: Co-occurrence map for 'adolescence'." width="2100"/>
 
 <p class="caption">
 
