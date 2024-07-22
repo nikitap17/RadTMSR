@@ -17,14 +17,14 @@ conducted topic modeling using latent Dirichlet allocation (Blei et al.,
 
 The corpus for analysis 1 consisted of author-provided keywords that
 were extracted by document. We further applied an exclusion filter of
-methodological terms and non-substantive words and classified closely related terms into phenomena. The resulting corpus consisted of 3093 documents, 13469 keywords (3124 unique keywords).
+methodological terms and non-substantive words and classified closely related terms into phenomena. The resulting corpus consisted of 3093 documents and 13469 keywords (3124 unique keywords).
 
 Following van Lissa's (2022) approach, we used the term frequency/inverse
 document frequency (TF-IDF) to select terms used frequently in a
 document, but not used frequently in the corpus, which could therefore
 be more diagnostic of subgroup membership.
 
-We explored a range of 2 to 20 topics, assessing model fit through the Bayesian Information Criterion (BIC) and interpretability via the entropy of the posterior document/topic probabilities. Figure 1 illustrates that BIC values exhibited a nearly perfect linear increase, with the simplest model yielding the lowest BIC. This suggests that the data did not contain any discernible subgroups or clusters.
+We explored a range of 2-20 topics, assessing model fit through the Bayesian Information Criterion (BIC) and interpretability via the entropy of the posterior document/topic probabilities. Figure 1 illustrates that BIC values exhibited a nearly perfect linear increase, with the simplest model yielding the lowest BIC. This suggests that the data did not contain any discernible subgroups or clusters.
 
 <div class="figure">
 
