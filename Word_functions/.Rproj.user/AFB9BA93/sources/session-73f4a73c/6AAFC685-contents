@@ -4,9 +4,10 @@ Author: ANONYMOUS 7/22/2024
 
 ## Supplementary Analysis: Terms Pruned Out from General Co-occurence Map
 
-Some terms that were identified as occurring frequently in our corpora (keywords and abstracts) were pruned out from our general co-occurrence maps due to relatively low co-occurrence indices. These terms are studied in a particularly isolated manner.
+Some frequently occurring terms in our corpora (keywords and abstracts) were excluded from our general co-occurrence maps due to their relatively low co-occurrence indices. This suggests that these terms are studied in a rather isolated context.
 
-In the following, we list most frequent terms that were pruned out from the co-occurrence matrix due to relatively low co-occurrence indices.
+Below, we list the most frequent terms that were pruned from the co-occurrence matrix due to their relatively low co-occurrence indices.
+
 
 ### Analysis 1: Keywords
 
