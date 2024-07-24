@@ -3,3 +3,7 @@
 ~$reference set & search string.xlsx
 __pychache__
 .ipynb_checkpoints
+
+.Rproj.user
+.RData
+.Rhistory
