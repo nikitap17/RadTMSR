@@ -5,26 +5,42 @@ Author: ANONYMOUS 7/22/2024
 ## Supplementary Analysis: Occurrence of 'Mental Health' across Time
 
 As many scholars who introduce radicalization theories advocate moving away from studying mental health, we examined the frequency of mental health-related phenomena in publications over time, confirming an overall decreasing trend. We present the frequency of 'mental health' in both the keyword and abstract corpus.
+<br>
+<br>
 
-### Analysis 1: Keywords
-
-
-### Analysis 2: Abstracts
+#### Analysis 1
 
 
 <div class="figure">
 
-<img src="../RTMR_Output/abstracts_mentalhealth_hist.png" alt="Analysis 2: Occurrence of 'Mental Health' across Time." width="2100"/>
+<img src="../code/RTMR_Output/Keywords_mental-health_hist.png" alt="Occurrence of 'Mental Health' in Abstracts and Author Keywords across Time." width="2100"/>
 
 <p class="caption">
 
-Figure 1.2: Analysis 2: Occurrence of 'Mental Health' across Time.
+Figure 1: Occurrence of 'Mental Health' in Author Keywords across Time.
 
 </p>
-
 </div>
+<br>
 
-Researchers frequently assert that terrorist actions can be committed by anyone, highlighting environmental factors rather than a narrow psychopathological diagnosis. This view, however, may be outdated due to its categorical approach to psychopathology. With the advent of the ICD-11 (World Health Organization, 2019) and the recognition of mental health as a spectrum, there is an opportunity to rejuvenate radicalization studies, particularly by examining how mental health intersects with meso- and macro-level influences.
+#### Analysis 2
+
+<div class="figure">
+
+<img src="../code/RTMR_Output/Abstracts_mental-health_hist.png" alt="Occurrence of 'Mental Health' in Abstracts and Author Keywords across Time." width="2100"/>
+
+<p class="caption">
+
+Figure 2: Occurrence of 'Mental Health' in Abstracts across Time.
+
+</p>
+</div>
+<br>
+<br>
+
+Researchers frequently assert that terrorist actions can be committed by anyone, highlighting environmental factors rather than a narrow psychopathological diagnosis. This view, however, may be outdated due to its categorical approach to psychopathology. With the advent of the ICD-11 (World Health Organization, 2019) and the recognition of mental health as a spectrum, there is an opportunity to revitalize radicalization studies, particularly by examining how mental health intersects with meso- and macro-level influences.
+<br>
+<br>
 
 # References
 
