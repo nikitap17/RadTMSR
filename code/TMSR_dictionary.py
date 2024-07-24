@@ -195,7 +195,7 @@ liberalism = ["liberal"]
 
 aggression = ["aggressive.behaviou?r", "^aggression$", "\\breactive aggression\\b", "\\baggressiveness\\b", "\\bantagonis", "\\bhostil", "^aggressive$"]
 
-violence = ["^violence$"]
+violence = ["^violence$", "^violent.attack$"]
 
 criminality = ["^criminal(ity)?$", "crime\\b", "(?<!non)delinq", "\\bgangs?(.involvement)?\\b","\\bcriminolog", "^prison$", "^perpetration$", "^convict(s|ion)?$"]
 

@@ -381,14 +381,14 @@ nounbydoc_ado <- nounbydoc[nounbydoc$doc_id %in% ado_docs]
 dtm <- udpipe::document_term_matrix(document_term_frequencies(nounbydoc_ado))
 # Negative binomial
 set.seed(5348)
-dtm_top <- dtm[, select_words(dtm, .95)]
+dtm_top <- dtm[, select_words(dtm, .975)]
 dtm_top <- dtm_top[rowSums(dtm_top) > 0, ]
 topterms <- colSums(dtm_top)
 word_freq <- data.frame(Word = names(topterms), Frequency = topterms, row.names = NULL)
 
 
 set.seed(52)
-cooc <- select_cooc(create_cooc(dtm), q = .95)
+cooc <- select_cooc(create_cooc(dtm), q = .975)
 #write.csv(as.matrix(cooc), "s1_cooc.csv")
 df_plot <- as_cooccurrence(cooc)
 df_plot <- df_plot[!df_plot$term1 == df_plot$term2, ]
@@ -412,14 +412,14 @@ nounbydoc_ado <- nounbydoc[nounbydoc$doc_id %in% ado_docs]
 dtm <- udpipe::document_term_matrix(document_term_frequencies(nounbydoc_ado))
 # Negative binomial
 set.seed(5348)
-dtm_top <- dtm[, select_words(dtm, .95)]
+dtm_top <- dtm[, select_words(dtm, .975)]
 dtm_top <- dtm_top[rowSums(dtm_top) > 0, ]
 topterms <- colSums(dtm_top)
 word_freq <- data.frame(Word = names(topterms), Frequency = topterms, row.names = NULL)
 
 
 set.seed(52)
-cooc <- select_cooc(create_cooc(dtm), q = .95)
+cooc <- select_cooc(create_cooc(dtm), q = .975)
 #write.csv(as.matrix(cooc), "s1_cooc.csv")
 df_plot <- as_cooccurrence(cooc)
 df_plot <- df_plot[!df_plot$term1 == df_plot$term2, ]
