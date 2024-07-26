@@ -20,7 +20,7 @@ library(yaml)
 
 ## Word Frequency ------------------------------------------------------
 ## Import nounbydoc.csv file created with Python
-nounbydoc <- read_csv("../RTMR_Output/Abstracts_nounbydoc.csv")
+nounbydoc <- read_csv("../RTMR_Output/Abstracts/Abstracts_nounbydoc.csv")
 #View(nounbydoc)
 
 ### Negative Binomial function
@@ -45,7 +45,7 @@ dtm_top <- dtm_top[rowSums(dtm_top) > 0, ]
 ## Word frequencies
 topterms <- colSums(dtm_top)
 word_freq <- data.frame(Word = names(topterms), Frequency = topterms, row.names = NULL)
-write.csv(word_freq, "../RTMR_Output/Abstracts_freq.csv", row.names = FALSE)
+write.csv(word_freq, "../RTMR_Output/Abstracts/Abstracts_freq.csv", row.names = FALSE)
 
 
 
@@ -130,7 +130,7 @@ p <- ggplot(data.frame(K = seqk, Entropy = entropies), aes(x = K, y = Entropy)) 
   scale_y_continuous(limits = c(0,1)) +
   theme_bw()
 
-ggsave("../RTMR_Output/Abstracts_entropies.png", p, device = "png", dpi = 600)
+ggsave("../RTMR_Output/Abstracts/Abstracts_entropies.png", p, device = "png", dpi = 600)
 #ggsave("study1_entropies.svg", p, device = "svg")
 
 p <- ggplot(data.frame(K = seqk, ll = ll), aes(x = K, y = ll)) + geom_path() +
@@ -139,7 +139,7 @@ p <- ggplot(data.frame(K = seqk, ll = ll), aes(x = K, y = ll)) + geom_path() +
   geom_smooth(method = "lm", formula = y~log(x), se = FALSE)+
   theme_bw()
 
-ggsave("../RTMR_Output/Abstracts_ll.png", p, device = "png", dpi = 600)
+ggsave("../RTMR_Output/Abstracts/Abstracts_ll.png", p, device = "png", dpi = 600)
 #ggsave("study1_ll.svg", p, device = "svg")
 
 p <- ggplot(data.frame(K = seqk, BIC = bics), aes(x = K, y = BIC)) + geom_path() +
@@ -148,7 +148,7 @@ p <- ggplot(data.frame(K = seqk, BIC = bics), aes(x = K, y = BIC)) + geom_path()
   geom_smooth(method = "lm", formula = y~x, se = FALSE)+
   theme_bw()
 
-ggsave("../RTMR_Output/Abstracts_BIC.png", p, device = "png", dpi = 600)
+ggsave("../RTMR_Output/Abstracts/Abstracts_BIC.png", p, device = "png", dpi = 600)
 #ggsave("study1_BIC.svg", p, device = "svg")
 
 
@@ -179,7 +179,7 @@ df_plot <- df_plot[order(df_plot$cooc, decreasing = TRUE), ]
 df_plot$id <- apply(df_plot[, c("term1", "term2")], 1, function(x)paste0(sort(x), collapse = ""))
 df_plot <- df_plot[!duplicated(df_plot$id), ]
 df_plot_incl_radicalism <- df_plot
-write.csv(df_plot_incl_radicalism, "../RTMR_Output/Abstracts_cooc_inclrad.csv", row.names = FALSE)
+write.csv(df_plot_incl_radicalism, "../RTMR_Output/Abstracts/Abstracts_cooc_inclrad.csv", row.names = FALSE)
 
 
                     
@@ -207,7 +207,7 @@ df_plot <- df_plot[order(df_plot$cooc, decreasing = TRUE), ]
 
 df_plot$id <- apply(df_plot[, c("term1", "term2")], 1, function(x)paste0(sort(x), collapse = ""))
 df_plot <- df_plot[!duplicated(df_plot$id), ]
-write.csv(df_plot, "../RTMR_Output/Abstracts_cooc_worad.csv", row.names = FALSE)
+write.csv(df_plot, "../RTMR_Output/Abstracts/Abstracts_cooc_worad.csv", row.names = FALSE)
 
 
 
@@ -237,7 +237,7 @@ df_plot <- df_plot[order(df_plot$cooc, decreasing = TRUE), ]
 
 df_plot$id <- apply(df_plot[, c("term1", "term2")], 1, function(x)paste0(sort(x), collapse = ""))
 df_plot <- df_plot[!duplicated(df_plot$id), ]
-write.csv(df_plot, "../RTMR_Output/Abstracts_cooc_adolescence.csv", row.names = FALSE)
+write.csv(df_plot, "../RTMR_Output/Abstracts/Abstracts_cooc_adolescence.csv", row.names = FALSE)
 
 
 
@@ -269,7 +269,7 @@ df_plot <- df_plot[order(df_plot$cooc, decreasing = TRUE), ]
 
 df_plot$id <- apply(df_plot[, c("term1", "term2")], 1, function(x)paste0(sort(x), collapse = ""))
 df_plot <- df_plot[!duplicated(df_plot$id), ]
-write.csv(df_plot, "../RTMR_Output/Abstracts_cooc_islamist.csv", row.names = FALSE)
+write.csv(df_plot, "../RTMR_Output/Abstracts/Abstracts_cooc_islamist.csv", row.names = FALSE)
 
                     
                     
@@ -301,7 +301,7 @@ df_plot <- df_plot[order(df_plot$cooc, decreasing = TRUE), ]
 
 df_plot$id <- apply(df_plot[, c("term1", "term2")], 1, function(x)paste0(sort(x), collapse = ""))
 df_plot <- df_plot[!duplicated(df_plot$id), ]
-write.csv(df_plot, "../RTMR_Output/Abstracts_cooc_far-right.csv", row.names = FALSE)
+write.csv(df_plot, "../RTMR_Output/Abstracts/Abstracts_cooc_far-right.csv", row.names = FALSE)
 
 
                     
@@ -332,7 +332,7 @@ df_plot <- df_plot[order(df_plot$cooc, decreasing = TRUE), ]
 
 df_plot$id <- apply(df_plot[, c("term1", "term2")], 1, function(x)paste0(sort(x), collapse = ""))
 df_plot <- df_plot[!duplicated(df_plot$id), ]
-write.csv(df_plot, "../RTMR_Output/Abstracts_cooc_far-left.csv", row.names = FALSE)
+write.csv(df_plot, "../RTMR_Output/Abstracts/Abstracts_cooc_far-left.csv", row.names = FALSE)
 
 
 
@@ -364,7 +364,7 @@ df_plot <- df_plot[order(df_plot$cooc, decreasing = TRUE), ]
 
 df_plot$id <- apply(df_plot[, c("term1", "term2")], 1, function(x)paste0(sort(x), collapse = ""))
 df_plot <- df_plot[!duplicated(df_plot$id), ]
-write.csv(df_plot, "../RTMR_Output/Abstracts_cooc_lone-actor.csv", row.names = FALSE)
+write.csv(df_plot, "../RTMR_Output/Abstracts/Abstracts_cooc_lone-actor.csv", row.names = FALSE)
 
 
 
@@ -396,7 +396,7 @@ df_plot <- df_plot[order(df_plot$cooc, decreasing = TRUE), ]
 
 df_plot$id <- apply(df_plot[, c("term1", "term2")], 1, function(x)paste0(sort(x), collapse = ""))
 df_plot <- df_plot[!duplicated(df_plot$id), ]
-write.csv(df_plot, "../RTMR_Output/Abstracts_cooc_male-supremacist.csv", row.names = FALSE)
+write.csv(df_plot, "../RTMR_Output/Abstracts/Abstracts_cooc_male-supremacist.csv", row.names = FALSE)
 
 
 
@@ -427,4 +427,4 @@ df_plot <- df_plot[order(df_plot$cooc, decreasing = TRUE), ]
 
 df_plot$id <- apply(df_plot[, c("term1", "term2")], 1, function(x)paste0(sort(x), collapse = ""))
 df_plot <- df_plot[!duplicated(df_plot$id), ]
-write.csv(df_plot, "../RTMR_Output/Abstracts_cooc_foreign-fighter.csv", row.names = FALSE)
+write.csv(df_plot, "../RTMR_Output/Abstracts/Abstracts_cooc_foreign-fighter.csv", row.names = FALSE)
