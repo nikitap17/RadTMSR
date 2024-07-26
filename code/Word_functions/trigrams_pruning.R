@@ -19,7 +19,7 @@ library(yaml)
 
 ## Trigram occurrences ------------------------------------------------------
 ## Import trigram_nounbydoc.csv file created with Python
-nounbydoc <- read_csv("../RTMR_Output/trigram_nounbydoc.csv",show_col_types = FALSE)
+nounbydoc <- read_csv("../RTMR_Output/Abstracts/trigram_nounbydoc.csv",show_col_types = FALSE)
 #View(nounbydoc)
 
 ### Negative Binomial function
@@ -44,4 +44,4 @@ dtm_top <- dtm_top[rowSums(dtm_top) > 0, ]
 ## Word frequencies
 topterms <- colSums(dtm_top)
 word_freq <- data.frame(Word = names(topterms),row.names = NULL)
-write.csv(word_freq, "../RTMR_Output/trigrams_pruned.csv", row.names = FALSE)
+write.csv(word_freq, "../RTMR_Output/Abstracts/trigrams_pruned.csv", row.names = FALSE)
