@@ -25,7 +25,7 @@ boot_dtm <- function(dtm, iterations = 100, confidence_boundary = .95){
   
 }
 
-library(fitdistrplus)
+
 select_words <- function(dtm, q = .95){
   d <- colSums(dtm)
   fit <- fitdist(d, "nbinom")
@@ -62,8 +62,7 @@ net_dens <- function(cooc){
   sum(cooc[lower.tri(cooc)] > 0) / potential_connections
 }
 
-library(RaschSampler)
-library(abind)
+
 select_fixed_margin <- function(dtm, confidence_boundary = .95, iterations = 100){
   out <- create_cooc(dtm)
   diag(out) <- 0

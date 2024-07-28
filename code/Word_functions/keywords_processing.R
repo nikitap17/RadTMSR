@@ -1,23 +1,15 @@
+if(!require("renv", quietly = T)){
+  install.packages("renv")
+}
 
-# if(!require("groundhog", quietly = T)){
-#   install.packages("groundhog")
-# }
-# library(groundhog)
-# 
-# groundhog.library("htmltools", "2023-12-01")
-# 
-# pkgs <- c("tidyverse",
-#           "fitdistrplus",
-#           "udpipe",
-#           "Matrix")
-# 
-# date = "2024-04-01" # year-month-day
-# groundhog.library(pkgs,date, ignore.deps = "htmltools")
+renv::restore()
 
 library(tidyverse)
 library(fitdistrplus)
 library(udpipe)
 library(Matrix)
+library(RaschSampler)
+library(abind)
 
 source("word_functions.R")
 # devtools::session_info()

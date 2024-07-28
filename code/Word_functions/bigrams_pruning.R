@@ -1,19 +1,18 @@
+
+if(!require("renv", quietly = T)){
+  install.packages("renv")
+}
+
+renv::restore()
+
+library(tidyverse)
 library(fitdistrplus)
-library(readr)
-source("word_functions.R")
-#source("circle2.R")
-library(data.table)
-#library(bibliometrix)
-#library(yaml)
-library(stringr)
-#library(lattice)
-#library(topicmodels)
 library(udpipe)
-library(igraph)
-library(wordcloud)
 library(Matrix)
-library(ggplot2)
-library(yaml)
+library(RaschSampler)
+library(abind)
+
+source("word_functions.R")
 
 
 
