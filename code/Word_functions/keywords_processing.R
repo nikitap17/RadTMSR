@@ -1,19 +1,28 @@
+
+# if(!require("groundhog", quietly = T)){
+#   install.packages("groundhog")
+# }
+# library(groundhog)
+# 
+# groundhog.library("htmltools", "2023-12-01")
+# 
+# pkgs <- c("tidyverse",
+#           "fitdistrplus",
+#           "udpipe",
+#           "Matrix")
+# 
+# date = "2024-04-01" # year-month-day
+# groundhog.library(pkgs,date, ignore.deps = "htmltools")
+
+library(tidyverse)
 library(fitdistrplus)
-library(readr)
-source("word_functions.R")
-#source("circle2.R")
-library(data.table)
-#library(bibliometrix)
-#library(yaml)
-library(stringr)
-#library(lattice)
-#library(topicmodels)
 library(udpipe)
-library(igraph)
-library(wordcloud)
 library(Matrix)
-library(ggplot2)
-library(yaml)
+
+source("word_functions.R")
+# devtools::session_info()
+
+
 
 
 ## Word Frequency ------------------------------------------------------
