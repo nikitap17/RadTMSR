@@ -1,9 +1,14 @@
-# Ignore temporary and backup files
-
+# Temporary and backup files
 ~$reference set & search string.xlsx
-__pychache__/
-.ipynb_checkpoints
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
 .Rproj.user
 .RData
 .Rhistory
+
+.ipynb_checkpoints
+
