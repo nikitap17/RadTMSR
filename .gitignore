@@ -1,7 +1,7 @@
 # Ignore temporary and backup files
 
 ~$reference set & search string.xlsx
-**/__pychache__/
+__pychache__/
 .ipynb_checkpoints
 
 .Rproj.user
