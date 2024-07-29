@@ -13,7 +13,7 @@ As many scholars who introduce radicalization theories advocate moving away from
 
 <div class="figure">
 
-<img src="../code/RTMR_Output/Keywords_mental-health_hist.png" alt="Occurrence of 'Mental Health' in Abstracts and Author Keywords across Time." width="2100"/>
+<img src="../code/RTMR_Output/Keywords/Keywords_mental-health_hist.png" alt="Occurrence of 'Mental Health' in Abstracts and Author Keywords across Time." width="2100"/>
 
 <p class="caption">
 
@@ -27,7 +27,7 @@ Figure 1: Occurrence of 'Mental Health' in Author Keywords across Time.
 
 <div class="figure">
 
-<img src="../code/RTMR_Output/Abstracts_mental-health_hist.png" alt="Occurrence of 'Mental Health' in Abstracts and Author Keywords across Time." width="2100"/>
+<img src="../code/RTMR_Output/Abstracts/Abstracts_mental-health_hist.png" alt="Occurrence of 'Mental Health' in Abstracts and Author Keywords across Time." width="2100"/>
 
 <p class="caption">
 

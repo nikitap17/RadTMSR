@@ -15,7 +15,7 @@ document, but not used frequently in the corpus, which could therefore be more d
 
 <div class="figure">
 
-<img src="../code/RTMR_Output/Keywords_BIC.png" alt="Analysis 1: Bayesian Information Criteria (BIC) for LDA models with 2-20 clusters." width="2100"/>
+<img src="../code/RTMR_Output/Keywords/Keywords_BIC.png" alt="Analysis 1: Bayesian Information Criteria (BIC) for LDA models with 2-20 clusters." width="2100"/>
 
 <p class="caption">
 
@@ -32,7 +32,7 @@ Similarly, Figure 2 shows that all entropies were close to zero. Entropy measure
 <div class="figure">
 
 
-<img src="../code/RTMR_Output/Keywords_entropies.png" alt="Analysis 1: Entropy values for LDA models with 2-20 clusters." width="2100"/>
+<img src="../code/RTMR_Output/Keywords/Keywords_entropies.png" alt="Analysis 1: Entropy values for LDA models with 2-20 clusters." width="2100"/>
 
 <p class="caption">
 
@@ -52,7 +52,7 @@ To evaluate the consistency of the abstract corpus, we performed topic modeling.
 
 <div class="figure">
 
-<img src="../code/RTMR_Output/Abstracts_BIC.png" alt="Analysis 2: Bayesian Information Criteria (BIC) for LDA models with 2-20 clusters." width="2100"/>
+<img src="../code/RTMR_Output/Abstracts/Abstracts_BIC.png" alt="Analysis 2: Bayesian Information Criteria (BIC) for LDA models with 2-20 clusters." width="2100"/>
 
 <p class="caption">
 
@@ -69,7 +69,7 @@ Figure 4 shows that all entropies were close to zero, which indicates how distin
 
 <div class="figure">
 
-<img src="../code/RTMR_Output/Abstracts_entropies.png" alt="Analysis 2: Bayesian Information Criteria (BIC) for LDA models with 2-20 clusters." width="2100"/>
+<img src="../code/RTMR_Output/Abstracts/Abstracts_entropies.png" alt="Analysis 2: Bayesian Information Criteria (BIC) for LDA models with 2-20 clusters." width="2100"/>
 
 <p class="caption">
 
