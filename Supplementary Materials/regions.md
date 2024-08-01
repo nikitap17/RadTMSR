@@ -1,8 +1,16 @@
 # Regions
 
+Author: ANONYMOUS 7/22/2024
+
+## Supplementary Analysis: Frequencies of regional terms 
+<br>
 Regions recurring in both keywords (Analysis 1) and abstracts (Analysis 2).
 
-## Frequencies of regional terms obtained from keywords
+
+<br>
+
+
+### Frequencies of regional terms obtained from keywords
 <br>
 
 <div class="figure">
@@ -17,7 +25,7 @@ Figure 1: Frequencies of terms pertaining to regions in Analysis 1.
 
 </div>
 
-## Frequencies of regional terms obtained from abstracts
+### Frequencies of regional terms obtained from abstracts
 <br>
 
 <div class="figure">
