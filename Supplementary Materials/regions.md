@@ -5,11 +5,11 @@ Author: ANONYMOUS 7/22/2024
 ## Supplementary Analysis: Frequencies of Regional Terms 
 <br>
 
-We present the frequency of terms pertaining to regions recurring in both keywords (Analysis 1) and abstracts (Analysis 2). The regional terms are unfiltered and uncategorised.
+In this supplementary file, we present the frequency of terms related to regions that appear in both keywords (Analysis 1) and abstracts (Analysis 2). These terms were excluded from the main analyses reported in the manuscript, as they were not deemed relevant to our research focus. The regional terms listed are unfiltered and uncategorized.
 
 <br>
 
-#### Frequencies of Regional Terms Obtained from Keywords
+### Frequencies of Regional Terms Obtained from Keywords
 
 <div class="figure">
 
@@ -25,7 +25,7 @@ Figure 1: Frequencies of terms pertaining to regions in Analysis 1.
 
 </div>
 
-#### Frequencies of Regional Terms Obtained from Abstracts
+### Frequencies of Regional Terms Obtained from Abstracts
 
 <div class="figure">
 
