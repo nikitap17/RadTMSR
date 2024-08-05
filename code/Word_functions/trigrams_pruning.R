@@ -1,6 +1,7 @@
 
 if(!require("renv", quietly = T)){
-  install.packages("renv")
+    options(repos = c(CRAN = "https://cloud.r-project.org"))
+    install.packages("renv")
 }
 
 renv::restore()
