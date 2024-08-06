@@ -22,15 +22,6 @@ source("word_functions.R")
 nounbydoc <- read_csv("../RTMR_Output/Abstracts/bigrams_nounbydoc.csv",show_col_types = FALSE)
 #View(nounbydoc)
 
-### Negative Binomial function
-select_words <- function(dtm, q = .95){
-  d <- colSums(dtm)
-  fit <- fitdist(d, "nbinom")
-  thres <- qnbinom(q, size=fit$estimate["size"], mu=fit$estimate["mu"])
-  return(d > thres)
-}
-
-
 # Frequency of word by doc (doc term matrix)
 dtm <- udpipe::document_term_matrix(document_term_frequencies(nounbydoc))
 

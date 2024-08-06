@@ -46,7 +46,7 @@ def lemmatisation(string):
 
 def ngram_extractor(doc_list):
     '''
-    Building one list(1) of lists(2) of strings. Each list(2) includes all possible combinations of three words, that is,
+    Building list(1) of lists(2) of strings. Each list(2) includes all possible combinations of three words, that is,
     one 3-gram, two 2-grams, and 3 1-grams.
     '''
 
@@ -209,7 +209,8 @@ def classification(list_of_words, word_dict):
 def extend_keywords(data_kw, word_dict):
     """
     Categorizes keywords according to a regex dictionary and replaces original
-    (key)words with overarching categories. One keyword can be classified into multiple categories.
+    (key)words with overarching categories. Importantly, one keyword can naturally
+    belong to multiple categories and will be assigned to multiple categories.
     Intended use with the pd.DataFrame.apply() function.
 
     Parameters

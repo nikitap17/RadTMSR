@@ -7,7 +7,7 @@
 * [_create_virtual-env_AppleIOS.ipynb](_create_virtual-env_AppleIOS.ipynb)
 * [_create_virtual-env_bash.ipynb](_create_virtual-env_bash.ipynb)
 
- If the script was successfully run, you should see a new folder `RadTMSR_env`, storing the module versions that were used by the authors (imported from [requirements.txt](requirements.txt). When running the analyses scripts, please make sure that the script's kernel are set to `RadTMSR_env`. A tutorial on how to manually select a kernel can be found [here](https://doc.cocalc.com/howto/jupyter-kernel-selection.html).
+ If the script was successfully run, you should see a new folder `RadTMSR_env`, storing the module versions that were used by the authors (imported from [requirements.txt](requirements.txt). When running the analyses scripts, please make sure that the scripts' kernels are set to `RadTMSR_env`. A tutorial on how to manually select a kernel can be found [here](https://doc.cocalc.com/howto/jupyter-kernel-selection.html).
  
 ## Main Analyses Scripts
  All performed analyses steps (pre-processing, pruning, term classifications, statistical analyses, visualisations) for `Study 1 (Keywords)` and `Study 2 (Abstracts)` were performed using the following two scripts:

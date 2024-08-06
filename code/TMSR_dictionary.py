@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue May  7 09:27:36 2024
-
-@author: Anna Knorr
-"""
-
-#import re
-
 #Manifestations of Radicalism
 
 radicalism = ["\\bradical", "\\bextremi", "^violen.+(act|protest|political|movement)", "\\bextrem.+(pro.group.|political.)?(act|behaviou?r|ideolog|attitude)", "terror", "militan", "militia", "\\b(school|suicide).attack|bomb","\\b(illegal|extreme).+political.act", "\\bself.sacrific", "\\binsurgency\\b", "\\b(ideological|protest|political|religio).+(violen|aggress)", "\\bwill.+(fight|die)", "\\bpolitically.motivated.crim", "\\b(inter.)?group.violen", "\\bderadicali[zs]ation\\b", "^attack$", "^disengagement$", "^rve$"]
