@@ -5,7 +5,7 @@ Author: ANONYMOUS 7/22/2024
 ## Supplementary Analysis: Co-occurrence Maps of Keyword and Abstract Corpora
 <br>
 
-In the main manuscript, we provided a selection of co-occurrence maps (i.e., a general map of the keyword corpus and a general map of the abstract corpus). We further presented maps for specific terms (i.e., "Islamist", "far right," and "far left") derived from the abstract corpus only. 
+In the main manuscript, we provided a selection of co-occurrence maps (i.e., a general map of the keyword corpus and a general map of the abstract corpus). We further presented maps for specific terms (i.e., "Islamist," "far right," and "far left") derived from the abstract corpus only. 
 <br>
 In this supplementary material, we present all specific co-occurrence maps generated from both the keyword corpus and the abstract corpus. 
 <br>
