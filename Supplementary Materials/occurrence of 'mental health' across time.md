@@ -5,7 +5,7 @@ Author: ANONYMOUS 7/22/2024
 ## Supplementary Analysis: Temporal Trends in the Occurrence of 'Mental Health' in Radicalization Research Articles
 <br>
 
-Given that many scholars advocating radicalization theories suggest moving away from psychopathological factors, we examined the frequency of mental health-related terms in publications over time. Our analysis confirms an overall decreasing trend. Below, we present the frequency of the term 'mental health' in both the keywords and abstract corpus of these research articles.
+Given that many scholars advocating radicalization theories suggest moving away from psychopathological factors, we examined the frequency of mental health-related terms in publications over time. Our analysis confirms an overall decreasing trend. Below, we present the frequency of the term 'mental health' in both the keyword and abstract corpora.
 <br>
 
 To analyze the occurrence of 'mental health' in radicalization research articles, we calculated the raw frequency of the term for each year. The frequencies were then weighted by dividing the raw frequency of the term by the total number of articles published in that year, normalizing the frequency to account for the varying number of publications each year.
