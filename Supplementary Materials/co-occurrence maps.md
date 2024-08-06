@@ -23,6 +23,7 @@ Recognizing the critical importance of the adolescent age group in the context o
 <p class="caption">
 
 Figure 1.1: Co-occurrence map for "islamist" in Analysis 1.
+Edges represent the term co-occurrence frequency, with thickness proportional to frequency. Hollow shapes represent terms featured in prominent theory.
 
 </p>
 
@@ -39,7 +40,7 @@ Figure 1.1: Co-occurrence map for "islamist" in Analysis 1.
 <p class="caption">
 
 Figure 1.2: Co-occurrence map for "islamist" in Analysis 2.
-
+Edges represent the term co-occurrence frequency, with thickness proportional to frequency. Hollow shapes represent terms featured in prominent theory.
 </p>
 
 </div>
@@ -57,7 +58,7 @@ Figure 1.2: Co-occurrence map for "islamist" in Analysis 2.
 <p class="caption">
 
 Figure 2.1: Co-occurrence map for "far right" in Analysis 1.
-
+Edges represent the term co-occurrence frequency, with thickness proportional to frequency. Hollow shapes represent terms featured in prominent theory.
 </p>
 
 </div>
@@ -73,7 +74,7 @@ Figure 2.1: Co-occurrence map for "far right" in Analysis 1.
 <p class="caption">
 
 Figure 2.2: Co-occurrence map for "far right" in Analysis 2.
-
+Edges represent the term co-occurrence frequency, with thickness proportional to frequency. Hollow shapes represent terms featured in prominent theory.
 </p>
 
 </div>
@@ -91,7 +92,7 @@ Figure 2.2: Co-occurrence map for "far right" in Analysis 2.
 <p class="caption">
 
 Figure 3.1: Co-occurrence map for "far left" in Analysis 1.
-
+Edges represent the term co-occurrence frequency, with thickness proportional to frequency. Hollow shapes represent terms featured in prominent theory.
 </p>
 
 </div>
@@ -107,7 +108,7 @@ Figure 3.1: Co-occurrence map for "far left" in Analysis 1.
 <p class="caption">
 
 Figure 3.2: Co-occurrence map for "far left" in Analysis 2.
-
+Edges represent the term co-occurrence frequency, with thickness proportional to frequency. Hollow shapes represent terms featured in prominent theory.
 </p>
 
 </div>
@@ -125,7 +126,7 @@ Figure 3.2: Co-occurrence map for "far left" in Analysis 2.
 <p class="caption">
 
 Figure 4.1: Co-occurrence map for "lone actor" in Analysis 1.
-
+Edges represent the term co-occurrence frequency, with thickness proportional to frequency. Hollow shapes represent terms featured in prominent theory.
 </p>
 
 </div>
@@ -141,7 +142,7 @@ Figure 4.1: Co-occurrence map for "lone actor" in Analysis 1.
 <p class="caption">
 
 Figure 4.2: Co-occurrence map for "lone actor" in Analysis 2.
-
+Edges represent the term co-occurrence frequency, with thickness proportional to frequency. Hollow shapes represent terms featured in prominent theory.
 </p>
 
 </div>
@@ -159,7 +160,7 @@ Figure 4.2: Co-occurrence map for "lone actor" in Analysis 2.
 <p class="caption">
 
 Figure 5.1: Co-occurrence map for "foreign fighter" in Analysis 1.
-
+Edges represent the term co-occurrence frequency, with thickness proportional to frequency. Hollow shapes represent terms featured in prominent theory.
 </p>
 
 </div>
@@ -175,7 +176,7 @@ Figure 5.1: Co-occurrence map for "foreign fighter" in Analysis 1.
 <p class="caption">
 
 Figure 5.2: Co-occurrence map for "foreign fighter" in Analysis 2.
-
+Edges represent the term co-occurrence frequency, with thickness proportional to frequency. Hollow shapes represent terms featured in prominent theory.
 </p>
 
 </div>
@@ -193,7 +194,7 @@ Figure 5.2: Co-occurrence map for "foreign fighter" in Analysis 2.
 <p class="caption">
 
 Figure 6.1: Co-occurrence map for "male supremacist" in Analysis 1.
-
+Edges represent the term co-occurrence frequency, with thickness proportional to frequency. Hollow shapes represent terms featured in prominent theory.
 </p>
 
 </div>
@@ -208,8 +209,8 @@ Figure 6.1: Co-occurrence map for "male supremacist" in Analysis 1.
 
 <p class="caption">
 
-Figure 5.2: Co-occurrence map for "male supremacist" in Analysis 2.
-
+Figure 6.2: Co-occurrence map for "male supremacist" in Analysis 2.
+Edges represent the term co-occurrence frequency, with thickness proportional to frequency. Hollow shapes represent terms featured in prominent theory.
 </p>
 
 </div>
@@ -227,7 +228,7 @@ Figure 5.2: Co-occurrence map for "male supremacist" in Analysis 2.
 <p class="caption">
 
 Figure 7.1: Co-occurrence map for "adolescence" in Analysis 1.
-
+Edges represent the term co-occurrence frequency, with thickness proportional to frequency. Hollow shapes represent terms featured in prominent theory.
 </p>
 
 </div>
@@ -243,7 +244,7 @@ Figure 7.1: Co-occurrence map for "adolescence" in Analysis 1.
 <p class="caption">
 
 Figure 7.2: Co-occurrence map for "adolescence" in Analysis 2.
-
+Edges represent the term co-occurrence frequency, with thickness proportional to frequency. Hollow shapes represent terms featured in prominent theory.
 </p>
 
 </div>
