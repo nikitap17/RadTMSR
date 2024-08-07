@@ -5,40 +5,12 @@ radicalism = ["\\bradical", "\\bextremi", "^violen.+(act|protest|political|movem
 far_right = ["far.right(?!.part)|ultra.right|extreme.right|^radical.right$", "^right.wing.(extremi|radicali|terror)",
              "nazi", "^pegida$", "identitarian.movement", "^fascis", "^golden.dawn$", "^vox$"]
 
-# far_left = ["left.*\\b(?!.*(brain|behind))", "meinhof", "^red.army$", "^black.panther"]
-
 far_left = [
     "\\b(?<!\\bright wing )(?<!\\bright radical )left(ist)?\\b(?!.*(brain|behind))", 
     "\\bmeinhof\\b", 
     "^red.army$", 
     "^black.panther$"
 ]
-
-
-
-
-#def compile_and_test_patterns(patterns, test_strings):
-#    matched = []
-#    unmatched = test_strings[:]
-#    for pattern_str in patterns:
-#        pattern = re.compile(pattern_str, re.IGNORECASE)  # Compile the pattern
-#        matched_for_pattern = []
-#        for string in unmatched[:]:
-#            if pattern.search(string):
-#                matched.append(string)
-#                matched_for_pattern.append(string)
-#                unmatched.remove(string)
-#              
-#    return matched, unmatched
-
-## Using the function to test terms
-#test_strings = ['left', 'left wing', 'leftist', 'radical left', 'left brain', 'radical left party', 'right wing left', 'wing left wing', 'left wing party', 'political left', 'radical left wing', 'right radical left', 'extreme left', 'left wing right', 'support radical left', 'right left wing', 'populist radical left', 'anddecreasesleftist', 'leftright', 'liberalleft'] 
-#matched, unmatched = compile_and_test_patterns(far_left, test_strings)
-
-#print("Matched strings:", matched)
-#print("Unmatched strings:", unmatched)
-
-
 
 islamist = ["\\bsharia.govern", "islamis", "islamic.state", "\\bis(is|il)?\\b", "muslim.brotherhood", "jihad", "salafi", "al.?qaeda", "^daesh$", "^dabiq$", "al.?shabaa?b", "^jemaa?h.islamiyah?$", "h[ie]zb[uo]llah?", "boko.haram"]
 
