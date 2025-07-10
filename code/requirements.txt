@@ -1,7 +1,7 @@
 ipykernel==6.28.0
 pandas==2.1.1
 regex==2023.10.3
-numpy==1.26.1
+numpy==1.26.2
 matplotlib==3.8.0
 spacy==3.7.2
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl#sha256=86cc141f63942d4b2c5fcee06630fd6f904788d2f0ab005cce45aadb8fb73889
