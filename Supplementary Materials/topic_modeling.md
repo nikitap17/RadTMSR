@@ -46,9 +46,10 @@ Figure 2: Entropy values for LDA models with 2-20 clusters in Analysis 1.
 
 <hr>
 
-However, an LDA-based modelling approach is typically not suitable for a small number of structured tokens, as it is the case for author keywords. Thus, we additionally performed emebdding-based clustering to test for homogeneity of the keywords corpus. To this end, the keywords of each document were passed as a single text to SciBERT (Beltagy et al., 2019) whcih than extracted contextualised embedding vectors for each document. Subsequently, an agglomarative cluster analysis was performed. Similarly to the pre-registered LDA-based topic modelling approach, we explored 2-20 clusters, while assessing the fit using the average silhouette width for the entire data set (Rousseeuw, 1987).
+However, as LDA-based modeling approaches are typically not suited for small numbers of structured tokens—as is the case for author keywords—we additionally performed embedding-based clustering to test the homogeneity of the keywords corpus. To this end, the keywords of each document were concatenated and passed as a single text to SciBERT (Beltagy et al., 2019), which extracted contextualized embedding vectors for each document. Subsequently, an agglomerative cluster analysis was performed. Similar to the pre-registered LDA-based topic modeling approach, we explored 2–20 clusters, assessing the fit using the average silhouette width for the entire dataset (see Rousseeuw, 1987).
 
-Silhouette widht or scores range from -1 to 1, with -1 indicating a bad assignment of documents to clusters, 0 denoting a strong homogeinity of the instances (i.e., documents), and 1 indicating a high discriminatory power, and thus high heterogeniety, between the found clusters. Furthermore, an average silhouette width of .71-1.00 denotes a strong structure of heterogenous clsuters, .51-.70 reasonable, .26-.50 weak and potentially artificial, and < .26 no substantial structure, that is, homogenous data (Kaufman & Rousseuw, 1990, p. 88).
+Silhouette width scores range from –1 to 1, with –1 indicating a poor assignment of documents to clusters, 0 indicating that documents lie on or between cluster boundaries (i.e., no clear assignment), and 1 representing a strong fit within clusters and a high degree of separation between clusters. An average silhouette width of .71–1.00 denotes a strong structure with well-separated, heterogeneous clusters; .51–.70 indicates a reasonable structure; .26–.50 suggests a weak and potentially artificial structure; and values below .26 reflect no substantial cluster structure, that is, largely homogeneous data (Kaufman & Rousseeuw, 1990, p. 88).
+
 
 The average silhouette scores for the 2-20 clusters are displayed in <strong>Figure 3</strong>.
 
@@ -66,7 +67,7 @@ Figure 3:
 
 <br>
 
-As the highest average silhouette value was achieved for the 2 clusters solution, silhouette values were further examined for both clusters individually (<strong>Figure 4</strong>). Eventually, all silhouette scores were close to 0 and < .26, indicating no strong structures of potential clusters and thus no potentially strong subcorpora.
+As the highest average silhouette value was observed for the two-cluster solution, we further examined the silhouette values for each cluster individually (<strong>Figure 4</strong>). All silhouette scores were close to 0 and below .26, indicating an absence of cluster structures and, therefore, no evidence for meaningful subcorpora within the dataset.
 
 <div class="figure">
 
