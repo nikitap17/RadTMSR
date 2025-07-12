@@ -15,28 +15,43 @@ import matplotlib.pyplot as plt
 print(sys.executable)
 print(os.getcwd())
 # ======================================================================================
-# Global Parameters ----
-EMBEDDING_BATCH_SIZE = 32
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
-# Load SciBERT ----------------
+# 1.1 Load Data ----
+cluster_df = pd.read_json("RTMR_Output/Keywords/Keywords_clean_data.json")
+df = pd.DataFrame({
+    "id" : cluster_df.record_id,
+    "keywords" : cluster_df.cat_keywords
+})
+df.keywords = df.keywords.apply(lambda x: " ".join(x))
+
+# 1.2 Load SciBERT ----
 MODEL_NAME = "allenai/scibert_scivocab_uncased"
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 model = AutoModel.from_pretrained(MODEL_NAME).to(DEVICE)
 model.eval()
 
-# Embedding Function
-def embed_keywords_single_text(keywords):
-    """
-    Embed all keywords concatenated as a single text with SciBERT [CLS] pooling.
-    """
-    if not keywords or (isinstance(keywords, float) and np.isnan(keywords)):
-        return np.zeros(model.config.hidden_size)
 
-    text = ", ".join(keywords)
+
+# 2. Compute Embeddings ----
+DEVICE = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
+BATCH_SIZE = 32
+keyword_list = [
+    k for k in df['keywords']
+    if isinstance(k, str) and k.strip() and not pd.isna(k)
+]
+
+ids = df['id'].tolist()
+all_keywords = []
+document_embeddings = []
+
+for i in tqdm(range(0, len(keyword_list), BATCH_SIZE), desc="Embedding documents"):
+    batch_keywords = keyword_list[i:i+BATCH_SIZE]
+    texts = batch_keywords  # each is a single char string
+    all_keywords.extend(texts)
+
     with torch.no_grad():
         inputs = tokenizer(
-            text,
+            texts,
             padding='max_length',
             truncation=True,
             max_length=64,
@@ -44,31 +59,10 @@ def embed_keywords_single_text(keywords):
         )
         inputs = {k: v.to(DEVICE) for k, v in inputs.items()}
         outputs = model(**inputs)
-        cls_embedding = outputs.last_hidden_state[:, 0, :].squeeze().cpu().numpy()
-    return cls_embedding
-# ======================================================================================
-
-# 1. Load Data ----
-cluster_df = pd.read_json("RTMR_Output/Keywords/Keywords_clean_data.json")
-df = pd.DataFrame({
-    "id" : cluster_df.record_id,
-    "keywords" : cluster_df.cat_keywords
-})
-
-
-# 2. Compute Embeddings ----
-ids = []
-all_keywords = []
-document_embeddings = []
-
-for _, row in tqdm(df.iterrows(), total=len(df), desc="Embedding documents"):
-    ids.append(row['id'])
-    kws = row['keywords']
-    all_keywords.append(", ".join(kws))
-    doc_emb = embed_keywords_single_text(kws)
-    document_embeddings.append(doc_emb)
-
+        cls_embeddings = outputs.last_hidden_state[:, 0, :].cpu().numpy()
+        document_embeddings.extend(cls_embeddings)
 document_embeddings = np.stack(document_embeddings)
+
 
 
 # 3. Agglomarative Clustering ---
@@ -98,7 +92,7 @@ plt.show()
 
 
 ## 3.2 Plot Silhouette scores for the best solution (here: 2 cluster solution) ---
-n_clusters = 2 
+n_clusters = range_n_clusters[int(np.where(scores == max(scores))[0][0])] 
 clustering = AgglomerativeClustering(n_clusters=n_clusters)
 cluster_labels = clustering.fit_predict(document_embeddings)
 silhouette_avg = silhouette_score(document_embeddings, cluster_labels)
