@@ -44,8 +44,6 @@ Figure 2: Entropy values for LDA models with 2-20 clusters in Analysis 1.
 
 <br>
 
-<hr>
-
 However, as LDA-based modeling approaches are typically not suited for small numbers of structured tokens—as is the case for author keywords—we additionally performed embedding-based clustering to test the homogeneity of the keywords corpus. To this end, the keywords of each document were concatenated and passed as a single text to SciBERT (Beltagy et al., 2019), which extracted contextualized embedding vectors for each document. Subsequently, an agglomerative cluster analysis was performed. Similar to the pre-registered LDA-based topic modeling approach, we explored 2–20 clusters, assessing the fit using the average silhouette width for the entire dataset (see Rousseeuw, 1987).
 
 Silhouette width scores range from –1 to 1, with –1 indicating a poor assignment of documents to clusters, 0 indicating that documents lie on or between cluster boundaries (i.e., no clear assignment), and 1 representing a strong fit within clusters and a high degree of separation between clusters. An average silhouette width of .71–1.00 denotes a strong structure with well-separated, heterogeneous clusters; .51–.70 indicates a reasonable structure; .26–.50 suggests a weak and potentially artificial structure; and values below .26 reflect no substantial cluster structure, that is, largely homogeneous data (Kaufman & Rousseeuw, 1990, p. 88).
@@ -55,11 +53,11 @@ The average silhouette scores for the 2-20 clusters are displayed in <strong>Fig
 
 <div class="figure">
 
-<img src="../code/RTMR_Output/Keywords/embedding_clusters_1.png" alt="Average silhouette width embedding-based clustering models with 2-20 clusters." width="2100"/>
+<img src="../code/RTMR_Output/Keywords/embedding_clusters_1.png" alt="Average silhouette width for embedding-based clustering models with 2-20 clusters." width="2100"/>
 
 <p class="caption">
 
-Figure 3: 
+Figure 3: Average silhouette width for embedding-based clustering models with 2-20 clusters in Analysis 1 (Keywords)
 
 </p>
 
@@ -71,11 +69,11 @@ As the highest average silhouette value was observed for the two-cluster solutio
 
 <div class="figure">
 
-<img src="../code/RTMR_Output/Keywords/embedding_clusters_2.png" alt="Average silhouette width embedding-based clustering models with 2-20 clusters." width="2100"/>
+<img src="../code/RTMR_Output/Keywords/embedding_clusters_2.png" alt="Average silhouette width for the 2 clusters solution." width="2100"/>
 
 <p class="caption">
 
-Figure 4: 
+Figure 4: Average silhouette widths for the 2 clusters solution in Analysis 1 (Keywords)
 
 </p>
 
@@ -88,7 +86,7 @@ Figure 4:
 ## Analysis 2: Abstracts
 
 For the second analysis, we used abstracts from the chosen articles. We employed part-of-speech tagging (POS-tagging) to determine the grammatical role of each word. Since our focus was on identifying phenomena, we kept only nouns and adjectives. Keeping these parts of speech enhances the interpretability of text mining models (Martin & Johnson, 2015). We then lemmatized the terms. This process yielded a corpus of 44687 keywords (2204 unique terms) across 4019 documents.
-To evaluate the consistency of the abstract corpus, we performed topic modeling. We again tested topic ranges from 2-20, assessing fit with the Bayesian Information Criterion (BIC) and interpretability via the entropy of posterior document/topic probabilities. As shown in Figure 3, the BIC values increased almost linearly, and the simplest model had the lowest BIC. This indicated no identifiable subgroups within the corpus.
+To evaluate the consistency of the abstract corpus, we performed topic modeling. We again tested topic ranges from 2-20, assessing fit with the Bayesian Information Criterion (BIC) and interpretability via the entropy of posterior document/topic probabilities. As shown in Figure 5, the BIC values increased almost linearly, and the simplest model had the lowest BIC. This indicated no identifiable subgroups within the corpus.
 
 <div class="figure">
 
@@ -96,7 +94,7 @@ To evaluate the consistency of the abstract corpus, we performed topic modeling.
 
 <p class="caption">
 
-Figure 3: Bayesian Information Criteria (BIC) for LDA models with 2-20 clusters in Analysis 2.
+Figure 5: Bayesian Information Criteria (BIC) for LDA models with 2-20 clusters in Analysis 2
 
 </p>
 
@@ -104,7 +102,7 @@ Figure 3: Bayesian Information Criteria (BIC) for LDA models with 2-20 clusters 
 
 <br>
 
-Figure 4 shows that all entropies were close to zero, which indicates how distinct the extracted clusters are. The low entropy values suggest that the posterior document/topic probabilities were almost uniformly distributed, meaning no distinct subgroups were detected. As a result, we proceeded with analyzing the entire sample as a whole.
+Figure 6 shows that all entropies were close to zero, which indicates how distinct the extracted clusters are. The low entropy values suggest that the posterior document/topic probabilities were almost uniformly distributed, meaning no distinct subgroups were detected. As a result, we proceeded with analyzing the entire sample as a whole.
 
 
 <div class="figure">
@@ -113,7 +111,7 @@ Figure 4 shows that all entropies were close to zero, which indicates how distin
 
 <p class="caption">
 
-Figure 4: Bayesian Information Criteria (BIC) for LDA models with 2-20 clusters in Analysis 2.
+Figure 6: Bayesian Information Criteria (BIC) for LDA models with 2-20 clusters in Analysis 2
 
 </p>
 
@@ -122,6 +120,41 @@ Figure 4: Bayesian Information Criteria (BIC) for LDA models with 2-20 clusters 
 <br>
 
 The BICs showed a linearly increasing trend, and the entropies were near zero. Consequently, no distinct subcorpora were identified, leading us to proceed with an analysis of the entire sample.
+
+
+Finally, since the abstracts that entered the topic modelling pipeline have been greatly reduced by the preceding pre-processing and categorization steps, we decided to complement the LDA-based analysis by performing another embedding-based clustering analysis. Similarly to the keywords analysis, the average silhouette scores for the 2-20 clusters were close to 0, showing no evidence for relevant subcorpora (see <strong>Figure 7</strong> and <strong>Figure 8</strong>).
+
+<div class="figure">
+
+<img src="../code/RTMR_Output/Abstracts/embedding_clusters_1.png" alt="Average silhouette width for embedding-based clustering models with 2-20 clusters." width="2100"/>
+
+<p class="caption">
+
+Figure 7: Average silhouette width for embedding-based clustering models with 2-20 clusters in Analysis 2 (Abstracts)
+
+</p>
+
+</div>
+
+<br>
+
+As the highest average silhouette value was observed for the two-cluster solution, we further examined the silhouette values for each cluster individually (<strong>Figure 4</strong>). All silhouette scores were close to 0 and below .26, indicating an absence of cluster structures and, therefore, no evidence for meaningful subcorpora within the dataset.
+
+<div class="figure">
+
+<img src="../code/RTMR_Output/Abstracts/embedding_clusters_2.png" alt="Average silhouette width for the 2 clusters solution." width="2100"/>
+
+<p class="caption">
+
+Figure 8: Average silhouette widths for the 2 clusters solution in Analysis 2 (Abstracts)
+
+</p>
+
+</div>
+
+<br>
+
+<hr>
 
 # References
 
