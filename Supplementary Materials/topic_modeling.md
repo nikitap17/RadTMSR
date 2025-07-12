@@ -5,7 +5,7 @@ Author: ANONYMOUS 7/21/2024
 
 ## Supplementary Analysis: Subcorpora Detection
 
-To detect whether the corpus consists of subcorpora (e.g., political science vs. psychology texts), which require a separate anylsis, we conducted topic modeling using latent Dirichlet allocation (Blei et al.,2003).
+To detect whether the corpus consists of subcorpora (e.g., political science vs. psychology texts), which require a separate anylsis, we conducted topic modeling using latent Dirichlet allocation (LDA; Blei et al.,2003).
 
 The corpus for analysis 1 consisted of author-provided keywords that were extracted by document. We further applied an exclusion filter of
 methodological terms and non-substantive words and classified closely related terms into phenomena. The resulting corpus consisted of 3093 documents and 13469 keywords (3124 unique keywords).
@@ -44,6 +44,45 @@ Figure 2: Entropy values for LDA models with 2-20 clusters in Analysis 1.
 
 <br>
 
+<hr>
+
+However, an LDA-based modelling approach is typically not suitable for a small number of structured tokens, as it is the case for author keywords. Thus, we additionally performed emebdding-based clustering to test for homogeneity of the keywords corpus. To this end, the keywords of each document were passed as a single text to SciBERT (Beltagy et al., 2019) whcih than extracted contextualised embedding vectors for each document. Subsequently, an agglomarative cluster analysis was performed. Similarly to the pre-registered LDA-based topic modelling approach, we explored 2-20 clusters, while assessing the fit using the average silhouette width for the entire data set (Rousseeuw, 1987).
+
+Silhouette widht or scores range from -1 to 1, with -1 indicating a bad assignment of documents to clusters, 0 denoting a strong homogeinity of the instances (i.e., documents), and 1 indicating a high discriminatory power, and thus high heterogeniety, between the found clusters. Furthermore, an average silhouette width of .71-1.00 denotes a strong structure of heterogenous clsuters, .51-.70 reasonable, .26-.50 weak and potentially artificial, and < .26 no substantial structure, that is, homogenous data (Kaufman & Rousseuw, 1990, p. 88).
+
+The average silhouette scores for the 2-20 clusters are displayed in <strong>Figure 3</strong>.
+
+<div class="figure">
+
+<img src="../code/RTMR_Output/Keywords/embedding_clusters_1.png" alt="Average silhouette width embedding-based clustering models with 2-20 clusters." width="2100"/>
+
+<p class="caption">
+
+Figure 3: 
+
+</p>
+
+</div>
+
+<br>
+
+As the highest average silhouette value was achieved for the 2 clusters solution, silhouette values were further examined for both clusters individually (<strong>Figure 4</strong>). Eventually, all silhouette scores were close to 0 and < .26, indicating no strong structures of potential clusters and thus no potentially strong subcorpora.
+
+<div class="figure">
+
+<img src="../code/RTMR_Output/Keywords/embedding_clusters_2.png" alt="Average silhouette width embedding-based clustering models with 2-20 clusters." width="2100"/>
+
+<p class="caption">
+
+Figure 4: 
+
+</p>
+
+</div>
+
+<br>
+
+<hr>
 
 ## Analysis 2: Abstracts
 
@@ -85,24 +124,13 @@ The BICs showed a linearly increasing trend, and the entropies were near zero. C
 
 # References
 
-<div id="refs" class="references">
+Beltagy, I., Lo, K., & Cohan, A. (2019). SciBERT: A pretrained language model for scientific text. *arXiv preprint*. 
+https://doi.org/10.48550/arXiv.1903.10676
 
-<div id="ref-bleiLatentDirichletAllocation2003">
+Blei, D. M., Ng, A. Y., & Jordan, M. I. (2003). Latent dirichlet allocation. *Journal of machine Learning research, 3*, 993-1022.
 
-Blei, David M., Andrew Y. Ng, and Michael I. Jordan. 2003. ???Latent Dirichlet Allocation.??? *Journal of Machine Learning Research* 3 (Jan):
-993???1022. <http://www.jmlr.org/papers/v3/blei03a>.
+Martin, F., & Johnson, M. (2015, December). More efficient topic modelling through a noun only approach. *In Proceedings of the Australasian Language Technology Association Workshop 2015* (pp. 111-115).
 
-</div>
+Rousseeuw, P. J. (1987). Silhouettes: a graphical aid to the interpretation and validation of cluster analysis. *Journal of computational and applied mathematics, 20*, 53-65. https://doi.org/10.1016/0377-0427(87)90125-7
 
-<div id="ref-martinMoreEfficientTopic2015">
-
-Martin, Fiona, and Mark Johnson. 2015. ???More Ef???cient Topic Modelling Through a Noun Only Approach.??? In *Proceedings of Australasian Language
-Technology Association Workshop*, 111???15.
-
-</div>
-
-<div id="ref-vanlissaMappingphenomenarelevant2022">
-
-van Lissa, C. J. (2022). Mapping phenomena relevant to adolescent emotion regulation: A text-mining systematic review. Adolescent Research Review, 7(1), 127-139. https://doi.org/10.1007/s40894-021-00160-7
-
-</div>
+van Lissa, C. J. (2022). Mapping phenomena relevant to adolescent emotion regulation: A text-mining systematic review. *Adolescent Research Review, 7*(1), 127-139. https://doi.org/10.1007/s40894-021-00160-7
