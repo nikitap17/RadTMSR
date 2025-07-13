@@ -13,6 +13,6 @@ We deviated from the preregistered CountVectorizer approach in favor of a custom
 ### Custom approach
 
 - Collects all n-grams (one trigram, two bigrams, three unigrams) from the same source fragment into a single list.
-- Applies a negative binomial distribution to prune out n-grams with low frequencies, retaining only those that occur significantly more often than chance (p < .05).
+- Applies a negative binomial distribution to prune out n-grams with low frequencies, retaining only those that occur significantly more often than chance (*p* < .05).
 - After pruning, either a single trigram, one or two bigrams, or a set of unigrams typically remains for each source fragment.
 - Ensures that only the most meaningful n-grams are included in the analysis.
