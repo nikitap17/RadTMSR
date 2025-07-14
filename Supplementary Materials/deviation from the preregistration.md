@@ -17,7 +17,7 @@ We deviated from the preregistered CountVectorizer approach (Pedregosa et al., 2
 - After pruning, either a single trigram, one or two bigrams, or a set of unigrams typically remains for each source fragment.
 - Ensures that only the most meaningful n-grams are included in the analysis.
 
-
+<br>
 
 ## References
 Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J., Passos, A., Cournapeau, D., Brucher, M., Perrot, M., & Duchesnay, É. (2011). Scikit-learn: Machine learning in Python. Journal of Machine Learning Research, 12, 2825–2830. https://www.jmlr.org/papers/volume12/pedregosa11a/pedregosa11a.pdf
