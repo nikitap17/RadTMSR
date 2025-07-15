@@ -39,7 +39,6 @@ Below, we list the most frequent terms that were pruned from the co-occurrence m
 ### Analysis 2: Abstracts
 
 - personality
-- rationality
 - intolerance
 - social cohesion
 - fundamentalism
@@ -47,7 +46,6 @@ Below, we list the most frequent terms that were pruned from the co-occurrence m
 - prejudice
 - uncertainty
 - hate
-- trust
 - military
 - liberalism
 - propaganda
