@@ -5,7 +5,7 @@ Author: ANONYMOUS 7/22/2024
 ## Supplementary Analysis: Disciplines Included in the Corpus
 <br>
 
-To assess which disciplines were synthesized in the TMSR, we present the frequencies of categories to which the included journals belong. Below, we provide the frequencies of both Web of Science categories and research areas as indicated in the original export from Web of Science. The plots display the 20 most frequent categories and research areas. For comprehensive lists, see the file "RTMR_Output."
+To assess which disciplines were synthesized in the TMSR, we present the frequencies of categories to which the included journals belong. Below, we provide the frequencies of both Web of Science categories and research areas as indicated in the original export from Web of Science. The plots display the 20 most frequent categories and research areas. For comprehensive lists, refer to the file "RTMR_Output."
 <br>
 <br>
 
