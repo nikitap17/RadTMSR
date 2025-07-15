@@ -48,7 +48,6 @@ law_abidance = ["\\blaw.(abidance|legitimacy)", "legal.(consciousness|awareness)
 digital_literacy = ["(digital|critical)? (medium|social media)? literacy"]
 
 cognition = ["\\bcognit", "meta(.?awareness|cogniti)", "\\bthought", "\\bthink", "^memory$", "\\bdecision.mak(e|ing)", "^black.white$","^attitudes?$"]
-#"\\bbias", "^creativity$", "\\bclosure$", "\\bknowledge\\b",
 
 nostalgia = ["nostalgi"]
 
@@ -576,4 +575,8 @@ word_dict = {
 
 # ===========================================================================================
 
+num_terms = len(word_dict)
+num_regex = sum(len(v) for v in word_dict.values())
 
+print("Number of terms (categories):", num_terms)
+print("Number of regex queries:", num_regex)
