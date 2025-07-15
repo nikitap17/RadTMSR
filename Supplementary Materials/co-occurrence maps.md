@@ -205,7 +205,7 @@ Edges represent the term co-occurrence frequency, with thickness proportional to
 
 <div class="figure">
 
-<img src="../code/RTMR_Output/Abstracts/abstracts_cooccurrence_foreignfighter.png" alt="Analysis 2: Co-occurrence map for 'male supremacist'." width="2100"/>
+<img src="../code/RTMR_Output/Abstracts/abstracts_cooccurrence_malesupremacist.png" alt="Analysis 2: Co-occurrence map for 'male supremacist'." width="2100"/>
 
 <p class="caption">
 
