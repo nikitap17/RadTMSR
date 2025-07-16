@@ -1,9 +1,9 @@
-# Deviations from the Preregistration
+# Deviation from the Preregistration
 
 
 Author: ANONYMOUS 7/12/2025
 
-## Supplementary Analysis: Disciplines Included in the Corpus
+## Supplementary Analysis: Deviation from the Preregistration
 <br>
 
 
