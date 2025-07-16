@@ -1,5 +1,12 @@
 # Deviations from the Preregistration
 
+
+Author: ANONYMOUS 7/12/2025
+
+## Supplementary Analysis: Disciplines Included in the Corpus
+<br>
+
+
 ## N-gram Extraction
 
 We deviated from the preregistered CountVectorizer approach (Pedregosa et al., 2011) in favor of a custom coding approach for greater control over n-gram extraction and to reduce the risk of double-counting.
