@@ -9,7 +9,7 @@ Author: ANONYMOUS 7/12/2025
 
 ## N-gram Extraction
 
-We deviated from the preregistered CountVectorizer approach (Pedregosa et al., 2011) in favor of a custom coding approach for greater control over n-gram extraction and to reduce the risk of double-counting.
+We deviated from the preregistered CountVectorizer approach (Pedregosa et al., 2011) in favor of a custom coding approach for greater control over n-gram extraction and to reduce the risk of double-counting. The key differences between the CountVectorizer method and our custom approach are summarized below:
 
 ### CountVectorizer
 
@@ -23,6 +23,9 @@ We deviated from the preregistered CountVectorizer approach (Pedregosa et al., 2
 - Applies a negative binomial distribution to prune out n-grams with low frequencies, retaining only those that occur significantly more often than chance (*p* < .05).
 - After pruning, either a single trigram, one or two bigrams, or a set of unigrams typically remains for each source fragment.
 - Ensures that only the most meaningful n-grams are included in the analysis.
+
+<br>
+Overall, our custom approach allowed for more precise attribution of multi-word expressions and reduced the risk of inflating category frequencies due to overlapping n-gram matches.
 
 <br>
 
