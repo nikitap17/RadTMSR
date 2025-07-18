@@ -5,11 +5,11 @@ Author: ANONYMOUS 7/22/2024
 ## Supplementary Analysis: Co-occurrence Maps of Keyword and Abstract Corpora
 <br>
 
-In the main manuscript, we provided a selection of co-occurrence maps (i.e., a general map of the keyword corpus and a general map of the abstract corpus). We further presented maps for specific terms (i.e., "Islamist," "far right," and "far left") derived from the abstract corpus only. 
+In the main manuscript, we provided a selection of co-occurrence maps (i.e., a general map of the keyword corpus and a general map of the abstract corpus). We further presented maps for specific ideologies (i.e., "Islamist," "far right," and "far left") derived from the abstract corpus only. 
 <br>
-In this supplementary material, we present all specific co-occurrence maps generated from both the keyword corpus and the abstract corpus. 
+In this supplementary material, we present all specific co-occurrence maps (i.e., "Islamist," "far right," "far left," "lone actor," "foreign fighter," and "male supremacist") generated from both the keyword corpus and the abstract corpus. 
 <br>
-Recognizing the critical importance of the adolescent age group in the context of radicalization, we further provide detailed co-occurrence maps for the term "adolescence" to shed light on the key concepts and associations related to this key demographic.
+Recognizing the importance of the adolescent age group in the context of radicalization, we further provide detailed co-occurrence maps for the term "adolescence" to shed light on the key concepts and associations related to this key demographic.
 
 
 ### 1. Islamist
@@ -205,7 +205,7 @@ Edges represent the term co-occurrence frequency, with thickness proportional to
 
 <div class="figure">
 
-<img src="../code/RTMR_Output/Abstracts/abstracts_cooccurrence_foreignfighter.png" alt="Analysis 2: Co-occurrence map for 'male supremacist'." width="2100"/>
+<img src="../code/RTMR_Output/Abstracts/abstracts_cooccurrence_malesupremacist.png" alt="Analysis 2: Co-occurrence map for 'male supremacist'." width="2100"/>
 
 <p class="caption">
 

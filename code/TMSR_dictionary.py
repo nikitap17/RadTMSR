@@ -48,35 +48,42 @@ law_abidance = ["\\blaw.(abidance|legitimacy)", "legal.(consciousness|awareness)
 digital_literacy = ["(digital|critical)? (medium|social media)? literacy"]
 
 cognition = ["\\bcognit", "meta(.?awareness|cogniti)", "\\bthought", "\\bthink", "^memory$", "\\bdecision.mak(e|ing)", "^black.white$","^attitudes?$"]
-#"\\bbias", "^creativity$", "\\bclosure$", "\\bknowledge\\b",
 
 nostalgia = ["nostalgi"]
+
+trust = ["trust", "\\bcredibl", "\\bcredibility"]
+
+boredom = ["\\bbor(e|i)"]
+
+honor = ["\\bhonou?r", "\\brespect", "\\bpride", "\\bproud"]
+
+confidence = ["\\bconfiden"]
+
+satisfaction = ["satisf"]
+
+empowerment = ["empower"]
+
+optimism = ["optimis"]
+
+hope = ["\\bhope(ful(ly)?|\\b)"]
+
+hopeless = ["\\bhopeless"]
 
 anomia = ["anomi[ea]", "value.change", "normless"]
 
 personality = ["temperament$", "^personality$", "^personality.+(trait|invento|questionn|dimensi|type|factor|character|assess|develop)", "5.(factor|personali)", "big.5", "personal.(feature|disposition)"]
 
-empathy = ["empath", "perspective.+taking", "sympathy", "empathic concern", "theory.(of.)?mind", "\\btom\\b"]
-
-hate = ["\\bhate", "\\bhatred\\b", "^animosity$"]
-
 sacred_values = ["\\bsacred.value", "\\bsacred.violen"]
-
-passion = ["\\b(obsessive.)?passion"]
 
 fanaticism = ["^fanati"]
 
 determination = [ "\\bdevot", "^determination$", "\\bcommitment$"]
-
-honor = ["\\bhonou?r", "^respect$"]
 
 masculinity = ["\\bmasculin", "^manosphere$"]
 
 martyrdom = ["\\bmartyr", "\\bhero"]
 
 white_race = ["^white"]
-
-trust = ["trust", "^credibility$"]
 
 intolerance = ["toleran(ce|t)\\b"]
 
@@ -140,8 +147,6 @@ mobilization = ["^(?:(?!violent|radical|extremist|terror(ist)?|jihadi|resource|r
 
 mortality_salience = ["mortality.salience", "death.anxiety", "fear(of.)?death", "^terror.management.theory$" ]
 
-emotion = ["regulati.+difficult", "(emoti|affect|anger).+(regulation|proble|adjustm|compete)", "dysregulation", "emotional.problems?", "psychological distress", "mood", "irritability", "emotio", "affect\\b", "^sad(ness)?$", "happy", "happiness", "disgust", "affect.+intensity", "affect.+instab", "mood.+variab", "sham", "self.?consciou", "frustration", "feel", "affective investment"]
-
 dogmatism = ["dogmat", "\\brigid", "\\battitude certainty\\b", "\\bcertain"]
 
 fundamentalism = ["fundamentali"]
@@ -170,6 +175,7 @@ education = ["educat", "pedagogy"]
 
 identity = ["\\bidenti(ty|ties?|fication)\\b", "^identity distress$", "emerging.+self", "representation.+self", "^affiliation$", "self.+(concept|construal|development|knowledge|representation|perception)", "self.+awareness"]
 
+
 #Mental
 
 resilience = ["\\bresilien", "\\bdifferential.susceptibility\\b"]
@@ -182,17 +188,13 @@ substance_use = ["binge.drinking", "^addiction$", "drug.(ab)?use", "subst.+use",
 
 depression = ["depressi.*", "^mdd$", "mood.disorder", "affective.disorder"]
 
-anxiety = ["anxiety", "^panic", "^behaviou?ral.inhibition$", "\\bphobia"]
-
-fear = ["fear"]
+anxiety = ["\\banxi", "^panic", "^behaviou?ral.inhibition$", "\\bphobia"]
 
 iq = ["\\biq\\b", "^intelligence$"]
 
 wellbeing = ["\\bquality.+life\\b", "well.?being", "life.sat"]
 
-anger = ["\\banger\\b", "^angry$"]
-
-adhd = ["hyperactiv", "\\bcallous.unemotional trait\\b", "hyperactivity disorder", "\\badhd\\b"]
+adhd = ["\\bhyperactiv", "\\bcallous.unemotional trait\\b", "hyperactivity disorder", "\\badhd\\b"]
 
 narcissism = ["narcissis"]
 
@@ -208,9 +210,49 @@ therapy = ["\\bin.?patient\\b", "therapy"]
 
 autism = ["\\basd\\b", "\\basperger.syndrome\\b", "autis", "pervasive developmental disorder", "\\bhigh(ly)?.functioning\\b", "spectrum disorder"]
 
-hope = ["\\bhope"]
-
 dark_triad = ["\\bdark.triad\\b", "\\bdark.personality\\b", "\\bdark.tetrad\\b"]
+
+emotion = ["regulati.+difficult", "(emoti|affect|anger).+(regulation|proble|adjustm|compete)", "dysregulation", 
+           "emotional.problems?", "psychological distress", "mood", "irritability", "emotio", "affect\\b", "affect.+intensity", 
+           "affect.+instab", "mood.+variab", "self.?consciou", "feel", "affective investment",
+           ]
+
+
+#Emotion-related
+
+disgust = ["\\bdisgust"]
+
+fear = ["\\bfear", "\\bafraid"]
+
+anger = ["\\banger\\b", "^angry$"]
+
+guilt = ["\\bguilt(y)?"]
+
+hate = ["\\bhate", "\\bhatred\\b", "^animosity$"]
+
+shame = ["sham(e|ing)"]
+
+envy = ["\\benv(y|io)", "\\bjealous"]
+
+sadness = ["\\bsad(ness)?\\b"]
+
+frustration = ["\\bfrustrat"]
+
+grief = ["\\bgrief"]
+
+happiness = ["\\bhapp(y|ier|iest|iness)"]
+
+love = ["\\blov", "\\baffectio"]
+
+joy = ["\\bjoy", "\\benjoy"]
+
+gratitude = ["\\bgratitude", "\\bgrateful"]
+
+excitement = ["\\bexcit"]
+
+empathy = ["\\bempath", "perspective.+taking", "sympathy", "theory.(of.)?mind", "\\btom\\b", "\\bcompassion"]
+
+passion = ["\\bpassion"]
 
 
 #Physical
@@ -256,7 +298,7 @@ police = ["\\bpolice$", "\\bpolicing$"]
 
 propaganda = ["\\bpropaganda\\b"]
 
-threat = ["\\bthreat", "\\bdanger\\b"]
+threat = ["\\bthreat", "\\bdanger"]
 
 democracy = ["\\bdemocra(tic|cies|tization)\\b", "^democracy$"]
 
@@ -510,10 +552,31 @@ word_dict = {
     "military": military,
     "region": region, 
     "international": international, 
-    "institutions": institutions}
+    "institutions": institutions,
+    "boredom": boredom,
+    "confidence": confidence,
+    "empowerment": empowerment,
+    "optimism": optimism,
+    "hopeless": hopeless,
+    "happiness": happiness,
+    "love": love,
+    "joy": joy,
+    "gratitude": gratitude,
+    "excitement": excitement,
+    "grief": grief,
+    "shame": shame,
+    "envy": envy,
+    "sadness": sadness,
+    "frustration": frustration,
+    "guilt": guilt,
+    "disgust": disgust}
 
 
 
 # ===========================================================================================
 
+num_terms = len(word_dict)
+num_regex = sum(len(v) for v in word_dict.values())
 
+print("Number of terms (categories):", num_terms)
+print("Number of regex queries:", num_regex)

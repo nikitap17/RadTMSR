@@ -87,8 +87,8 @@ dtm <- udpipe::document_term_matrix(document_term_frequencies(df_lda))
 # Build topic models
 
 seqk <- seq(2, 20, 1)
-burnin <- 1000
-iter <- 1000
+burnin <- 2000
+iter <- 2000
 keep <- 50
 set.seed(44773)
 res_lda <- lapply(seqk, function(k) {
